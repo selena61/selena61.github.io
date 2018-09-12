@@ -9,14 +9,14 @@ body {
     width: 768px;
 }
 
-.header {
+.Header {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    margin-left: 75px;
-    font-size: 90px;
+    position: absolute;
+    margin-top: -893.5px;
+    margin-right: 1500px;
+    font-size: 135px;
     text-align: left;
-    height: 1024px;
-    width: 180px;
     font-family: "modesto-text",serif;
     font-style: normal;
     font-weight: 700;
@@ -30,7 +30,7 @@ body {
     font-size: 275px;
     position: absolute;
     height: 300px;
-    margin-top: -670px;
+    margin-top: 355px;
     margin-left: 325px;
 }
 
@@ -44,7 +44,7 @@ body {
     border-bottom: 0;
     transform: rotate(270deg);
     position: absolute;
-    margin-top: -600px;
+    margin-top: 440px;
     margin-left: 530px;
 }
 
@@ -55,7 +55,7 @@ body {
     font-weight: 700;
     text-align: center;
     font-size: 30px;
-    margin-top: 120px;
+    margin-top: 115px;
     margin-left: 0px;
     line-height: 50px;
     writing-mode: vertical-rl;
@@ -64,7 +64,7 @@ body {
 #Button {
     z-index: 30;
     position: absolute;
-    margin-top: -565px;
+    margin-top: 470px;
     margin-left: 635px;
 }
 
@@ -78,7 +78,7 @@ body {
     border-bottom: 0;
     transform: rotate(180deg);
     position: absolute;
-    margin-top: -1024px;
+    margin-top: 0px;
     margin-left: 300px;
 }
 
@@ -104,7 +104,7 @@ body {
     border-bottom: 0;
     transform: rotate(0deg);
     position: absolute;
-    margin-top: -235px;
+    margin-top: 790px;
     margin-left: 300px;
 }
 
@@ -134,14 +134,14 @@ body {
 .center {
     position: absolute;
     z-index: -10;
-    margin-top: -1024px;
+    margin-top: 0px;
 }
 
 .empty {    
     border-radius: 50%;
 }
 
-.analysisX {
+.analysiscircle {
     border-radius: 50%;
 }
 
