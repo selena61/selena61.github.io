@@ -148,6 +148,6 @@ body {
 .analysis {
     position: absolute;
     z-index: 20;
-    top: 373px;
-    left: 725px; 
+    margin-top: -655px;
+    margin-left: 267px; 
 }
