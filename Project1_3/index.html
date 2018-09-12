@@ -3,7 +3,9 @@
     
 <link rel="stylesheet" href="assets/style.css">
 <link rel="stylesheet" href="https://use.typekit.net/xug7kxi.css">
-      
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/jquery.cycle2.min.js"></script>
+    
 </head>
 
 <html>
@@ -18,12 +20,21 @@
             
         <div class = "Letter">
             <h1>
-                S
+                X
             </h1>
-            <div class = "Button"> 
-            <img src = "assets/images/Pointing.gif">
-            </div>
-        </div>    
+        </div>  
+        
+    <div class="cycle-slideshow analysis" data-cycle-timeout="0" data-cycle-next="#Button" >
+        
+        <img class = "empty" src="assets/images/empty-analysis.png" width="300" height="300" alt=".png place holder" class="cycle-slide" />
+
+        <img class = "analysisX" src="assets/images/letter-analysis.png" width="300" height="300" alt="typographic analysis of the Modesto X" class="cycle-slide" />
+
+    </div>
+        
+    <div id = "Button"> 
+        <img src = "assets/images/Pointing.png">
+    </div>   
         
         <div class = "rightcircle"> 
             <div class = "Sample">
