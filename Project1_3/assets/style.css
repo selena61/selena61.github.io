@@ -43,7 +43,7 @@ body {
     border: 10px solid black;
     border-bottom: 0;
     transform: rotate(270deg);
-    margin-top: -570px;
+    margin-top: -650px;
     margin-left: 530px;
 }
 
@@ -63,7 +63,7 @@ body {
 #Button {
     z-index: 30;
     position: absolute;
-    margin-top: -535px;
+    margin-top: -615px;
     margin-left: 635px;
 }
 
@@ -76,7 +76,7 @@ body {
     border: 10px solid black;
     border-bottom: 0;
     transform: rotate(180deg);
-    margin-top: -615px;
+    margin-top: -535px;
     margin-left: 300px;
 }
 
@@ -101,6 +101,7 @@ body {
     border: 10px solid black;
     border-bottom: 0;
     transform: rotate(0deg);
+    position: absolute;
     margin-top: 555px;
     margin-left: 300px;
 }
@@ -130,8 +131,8 @@ body {
 
 .center {
     position: absolute;
-    z-index: -1;
-    margin-top: -1024px;
+    z-index: -10;
+    margin-top: -230px;
 }
 
 .empty {    
