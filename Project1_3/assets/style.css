@@ -12,15 +12,15 @@ body {
 .Header {
     writing-mode: vertical-rl;
     text-orientation: upright;
-    position: absolute;
-    margin-top: -893.5px;
-    margin-right: 1500px;
+    position: relative;
+    margin-top: -0px;
+    margin-right: 160px;
     font-size: 135px;
     text-align: left;
     font-family: "modesto-text",serif;
     font-style: normal;
     font-weight: 700;
-    z-index: 1;
+    z-index: 5;
 }
 
 .Letter h1{
@@ -30,7 +30,7 @@ body {
     font-size: 275px;
     position: absolute;
     height: 300px;
-    margin-top: 355px;
+    margin-top: -662px;
     margin-left: 325px;
 }
 
@@ -44,8 +44,8 @@ body {
     border-bottom: 0;
     transform: rotate(270deg);
     position: absolute;
-    margin-top: 440px;
-    margin-left: 530px;
+    margin-top: -585px;
+    margin-left: 527px;
 }
 
 .Sample p{
@@ -64,8 +64,8 @@ body {
 #Button {
     z-index: 30;
     position: absolute;
-    margin-top: 470px;
-    margin-left: 635px;
+    margin-top: -555px;
+    margin-left: 630px;
 }
 
 .topcircle {
@@ -78,7 +78,7 @@ body {
     border-bottom: 0;
     transform: rotate(180deg);
     position: absolute;
-    margin-top: 0px;
+    margin-top: -1024px;
     margin-left: 300px;
 }
 
@@ -104,7 +104,7 @@ body {
     border-bottom: 0;
     transform: rotate(0deg);
     position: absolute;
-    margin-top: 790px;
+    margin-top: -235px;
     margin-left: 300px;
 }
 
@@ -134,7 +134,7 @@ body {
 .center {
     position: absolute;
     z-index: -10;
-    margin-top: 0px;
+    margin-top: -1024px;
 }
 
 .empty {    
@@ -148,6 +148,6 @@ body {
 .analysis {
     position: absolute;
     z-index: 20;
-    top: 367px;
-    left: 1165px; 
+    top: 370px;
+    left: 970px; 
 }
