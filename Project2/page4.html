@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://use.typekit.net/lcg7eta.css">
+    <link rel="stylesheet" href="Page4/assets/style.css">
+</head>
+
+<html>
+    <body>
+        <div class="Header"> 
+            <h1>
+            Cost of College
+            </h1>
+        </div>
+        
+        <div class="Subheader">
+            Click the box to reveal the answer, then click on the star to learn more about the cost of college
+        </div>
+        
+        <button class="Reveal">
+            Student loans, on average, cost
+        </button>
+        <div class="Loans">
+            $$$$$$$$$$
+        </div>  
+        
+        <script>
+            var coll = document.getElementsByClassName("Reveal");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+        
+        <input type="image" src="Page4/images/Star.png" class="Star" onclick="toggle(this);">
+        
+        <script>
+        function toggle(el){
+    if(el.className!="StarFacts")
+    {
+        el.src="Page4/images/StarFacts.png";
+        el.className="StarFacts";
+    }
+    else if(el.className=="StarFacts")
+    {
+        el.src='Page4/images/Star.png';
+        el.className="Star";
+    }
+
+    return false;
+}  
+        </script>
+        
+        <a href="page5.html" class="button">
+            <img src="Page4/images/Next_2.png">
+        </a>
+    </body>
+</html>

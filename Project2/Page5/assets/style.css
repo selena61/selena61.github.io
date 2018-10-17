@@ -1,0 +1,17 @@
+input[type="checkbox"] {
+    width: 0;
+    height: 0;
+    margin: 0;
+    border: 0 none;
+    padding: 0;
+}
+input[type="checkbox"]:before {
+    content: url("Page5/images/20.png");
+    display: block;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+input[type="checkbox"]:checked:before {
+    content: url("Page5/images/Savings20.png");
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.Pathway {
+    position: relative;
+    top: -65px;
+    left: 800px;
+    z-index: -1;
+}
+
+.Beginning {
+    position: relative;
+    top: 600px;
+    left: 815px;
+    z-index: 1;
+}
+
+.DiplomaBooks {
+    position: relative;
+    top: -225px;
+    left: 25px;
+}
+
+.NotSure {
+    position: relative;
+    top: -900px;
+    left: 50px; 
+}
+
+.Info {
+    position: relative;
+    top: -900px;
+    left: 200px;
+}
+
+.Consider {
+    position: relative;
+    top: -850px;
+    left: 350px;
+}

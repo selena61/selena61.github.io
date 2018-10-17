@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.Subheader {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    position: relative;   
+    left: 20px;
+    top: 20px;
+}
+
+.Pathway {
+    position: relative;
+    top: -40px;
+    left: 800px;
+}
+
+.Aid {
+    position: relative;
+    top: -675px;
+    left: 75px;
+}
+
+.AidInfo {
+    position: relative;
+    top: -675px;
+    left: 75px;
+}
+
+.Scholarships {
+    position: relative; 
+    top: -1125px;
+    left: 450px;
+}
+
+.ScholarshipInfo {
+    position: relative;
+    top: -1125px;
+    left: 450px;
+}
+
+.Money {
+    position: relative;
+    top: -1200px;
+    left: 100px;
+}
+
+.Next {
+    position: relative;
+    top: -1250px;
+    left: 800px;
+}

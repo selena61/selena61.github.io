@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<script type="text/javascript">
+    function unhide("Reveal1") {
+var item = document.getElementById("Reveal1");
+        if (item) {item.className=(item.className=='hidden');
+        }
+    }
+</script>
+
+<head>
+    <link rel="stylesheet" href="Page3/assets/style_2.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lcg7eta.css">
+</head>
+
+<html>
+    <body>
+        <div class="Header">
+            <h1>
+                How much money will I make?
+            </h1>
+        </div>
+        
+        <div class="Subheader">
+            Click on the box to reveal how much you will make based on the level of education you chose
+        </div>
+        
+         <div class="Note">
+            <h3>
+                *The final monthly income includes federal taxes and state taxes for Indiana
+            </h3>
+        </div>      
+        
+        <button class="Reveal1"> Your annual salary will be
+        </button>
+        <div class="Income">
+            $59,124
+        </div>  
+        
+        <script>
+            var coll = document.getElementsByClassName("Reveal1");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+
+        <button class="Reveal2">
+            You will be taxed at a rate of 
+        </button>
+        <div class="Tax">
+            25%
+        </div>
+        
+        <script>
+            var coll = document.getElementsByClassName("Reveal2");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+        
+        <button class="Reveal3">
+            After taxes, each month you will take home
+        </button>
+        <div class="Monthly">
+            $3,704
+        </div>
+        
+        <script>
+            var coll = document.getElementsByClassName("Reveal3");
+            var i;
+
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+        
+        <div class="Pathway">
+            <img src="Page3/assets/images/Page3_Pathway.png">
+        </div>
+        
+        <a href="page4.html" class="Next">
+            <img src="Page3/assets/images/AllPages_Next.png">
+        </a>  
+        
+    </body>
+
+</html>

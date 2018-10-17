@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.Subheader {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    position: relative;   
+    left: 20px;
+    top: 20px;
+}
+
+.Pathway {
+    position: relative;
+    top: -310px;
+    left: 820px;
+}
+
+.Circle1{
+    position: relative;
+    top: -1000px;
+    left: 25px;
+}
+
+.HowTo1 {
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    position: relative;
+    top: 75px;
+    left: 125px;
+    width: 700px;
+}
+
+.Circle2 {
+    position: relative;
+    top: -750px;
+    left: 25px;
+}
+
+.HowTo2 {
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;    
+    position: relative;
+    top: 340px;
+    left: 125px;
+    width: 700px;
+}
+
+.SAT {
+    background-color: #0b473c; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    height: 50px;
+    width: 150px;   
+    position: relative; 
+    top: 375px;
+    left: 25px;
+}
+
+.ACT {
+    background-color: #4e7f75; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px; 
+    height: 50px;
+    width: 150px;       
+    position: relative;
+    top: 375px;
+    left: 125px;
+}
+
+.CommonApp {
+    background-color: #74a599; 
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    height: 75px;
+    width: 150px;
+    position: relative;
+    top: 385px;
+    left: 200px;
+}
+
+.Letter {
+    transform: scale(.9,.9);
+    position: relative;
+    top: -1135px;
+    left: 300px;
+}
+
+.Next {
+    position: relative;
+    top: -425px;
+    left: 825px;
+}

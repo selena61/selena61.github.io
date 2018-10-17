@@ -1,0 +1,99 @@
+/* Eliminate default margins */
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 1024px;
+    width: 768px;
+}
+
+.Header h1 {
+    font-family: "berlin-sans",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 58px;
+    text-align: center;
+    position: relative;
+}
+
+.Subheader h2 {
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+}
+
+.HighSchoolCircle {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: #d84627;
+    z-index: -1;
+    position: relative;
+    left: 40px;
+    bottom: 375px;
+}
+
+.CollegeCircle {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    background-color: #d07528;
+    z-index: -1;
+    position: relative;
+    left: 375px;
+    bottom: 425px;
+}
+
+.HighSchool h2 {
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    top: 85px;
+    left: 65px;
+    color: #fff;
+}
+
+.College h2 {
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    right: -165px;
+    color: #fff;
+}
+
+.Diploma1 {
+    position: relative;
+    bottom: 1100px;
+    left: 325px;
+    transform:scale(.8, .8);
+}
+
+.Diploma2 {
+    position: relative;
+    bottom: 1150px;
+    transform: scale(.9,.9);
+    left: -30px;
+}
+
+a {
+    position: relative;
+    top: -1200px;
+    left: 475px;
+}

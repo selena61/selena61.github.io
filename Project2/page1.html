@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="Page1/assets/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lcg7eta.css">
+    
+</head>
+
+<html>
+    <body>
+        
+        <div class="Header">
+            <h1>
+            Your Future Spending
+            </h1>
+        </div>
+        
+        <div class="Subheader">
+            <h2>
+            Does going to college make a difference in how much money you can save and spend?
+            </h2>
+            <h3>
+            Click the boxes to see some facts on high school and college degrees
+            </h3>
+        </div>
+        
+        <div c;ass="HighSchool">
+            <input type="image" src="Page1/images/HighSchool.png" class="HS" onclick="toggle(this);">
+        </div>
+        
+        <script type="text/javascript">
+            
+        function toggle(hs){
+            if(hs.className!="HSF")
+                {
+                    hs.src='Page1/images/HighSchoolFacts.png';
+                    hs.className="HSF";
+                }
+            else if(hs.className=="HSF")
+            {
+                hs.src='Page1/images/HighSchool.png';
+                hs.className="HS";
+            }
+        }  
+        </script>
+        
+         <div class="College">
+            <input type="image" src="Page1/images/College.png" class="C" onclick="toggle(this);">
+        </div>
+        
+         <script type="text/javascript">
+        function toggle(hs){
+            if(hs.className!="CF")
+                {
+                    hs.src='Page1/images/CollegeFacts.png';
+                    hs.className="CF";
+                }
+            else if(hs.className=="CF")
+            {
+                hs.src='Page1/images/College.png';
+                hs.className="C";
+            }
+        }  
+        </script>
+    
+ <!--    <div id="infoToggler"><img src="Page1/images/College.png" width="500px" height="500px"/>
+            <img src="Page1/images/CollegeFacts.png" width="500px" height="500px" style="display:none"/>
+        </div>
+
+              
+<script>    
+        $("#infoToggler").click(function() {
+    $(this).find('img').toggle();
+        });
+    </script>
+        -->        
+        
+        <div class="Computer">
+            <img src = "Page1/images/Computer2.png">        
+        </div>
+        
+        <div class="Books">
+            <img src="Page1/images/Books2.png">
+        </div>
+        
+        <a href="page2.html" class="button">
+            <img src="Page1/images/Next_2.png">
+        </a>
+    
+      <!--  <img id="HighSchool" onclick="changeImage()" src="Page1/images/HighSchool.png" width="500px" height="500px">
+        
+        <script>
+            function changeImage() {
+                var image = document.getElementById('HighSchool');
+                if (image.src.match("Facts")) {
+                    image.src = "Page1/images/HighSchool.png";
+                } else {
+                    image.src = "Page1/images/HighSchoolFacts.png";
+                }
+            }
+        </script>
+
+    <img id="College" onclick="changeImage()" src="Page1/images/College.png" width="500px" height="500px">
+    <script>
+        function changeImage() {
+            var image = document.getElementById('College');
+            if (image.src.match("Facts2")) {
+                image.src = "Page1/images/College.png";
+            } else {
+                image.src = "Page1/images/CollegeFacts.png";
+            }
+        }
+    </script>
+-->
+    </body>
+</html>

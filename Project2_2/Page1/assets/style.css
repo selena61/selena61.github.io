@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header h1 {
+   font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 67px;
+    text-align: left;
+    position: relative;
+    left: 50px;
+}
+
+.Subheader h2 {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    height: 322px;
+    width: 500px;
+    text-align: left;
+    position: relative;
+    top: 35px;
+    left: 50px;
+}
+
+.Pathway {
+    transform: scale(.9,.9);
+    position: relative;
+    top: -335px;
+    left: 600px;
+}
+
+.Diploma {
+    position: relative;
+    top: -780px;
+    left: 100px;
+}

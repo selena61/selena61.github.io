@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.Subheader {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    width: 850px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.Pathway {
+    position: relative;
+    top: -415px;
+    left: 250px;
+}
+
+.NextButton {
+    position: relative;
+    top: -500px;
+    left: 800px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    width: 550px;
+    height: 350px;
+    top: 50px;
+    left: 100px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 20%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+

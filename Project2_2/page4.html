@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="Page4/assets/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lcg7eta.css">
+</head>
+
+<html>
+    <body>
+        <div class="Header">
+            <h1>
+                What's the difference in income?
+            </h1>
+        </div>
+        
+        <div class="Subheader">
+            <h2>
+                Click the boxes to reveal the different annual salaries
+            </h2>
+        </div>
+        
+        <div class="Pathway">
+            <img src="Page4/assets/images/Page4_Pathway.png">
+        </div>
+        
+        <a href="page5.html" class="Next">
+            <img src="Page4/assets/images/AllPages_Next.png">
+        </a>
+        
+        <button onclick="HighSchool()" class="HighSchool">
+            High School
+        </button>
+
+        <div id="HighSchoolSalary" style="display: none">
+            $35,256
+        </div>
+                
+        <script>
+        function HighSchool() {
+            var x = document.getElementById("HighSchoolSalary");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+</script>
+        
+        <button onclick="Associates()" class="Associates">
+            Associate's
+        </button>
+
+        <div id="AssociatesSalary" style="display: none">
+            $41,496
+        </div>
+        
+        <script>
+        function Associates() {
+            var x = document.getElementById("AssociatesSalary");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+</script>        
+ 
+        <button onclick="Bachelors()" class="Bachelors">
+            Bachelor's
+        </button>
+
+        <div id="BachelorsSalary" style="display: none">
+            $59,124
+        </div>
+        
+        <script>
+        function Bachelors() {
+            var x = document.getElementById("BachelorsSalary");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+</script>  
+        
+         <button onclick="Masters()" class="Masters">
+            Master's
+        </button>
+
+        <div id="MastersSalary" style="display: none">
+            $69,732
+        </div>
+        
+        <script>
+        function Masters() {
+            var x = document.getElementById("MastersSalary");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+</script>       
+        
+         <button onclick="Doctoral()" class="Doctoral">
+            Doctoral
+        </button>
+
+        <div id="DoctoralSalary" style="display: none">
+            $84,296
+        </div>
+        
+        <script>
+        function Doctoral() {
+            var x = document.getElementById("DoctoralSalary");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+</script>       
+        
+         <button onclick="Professional()" class="Professional">
+            Professional
+        </button>
+
+        <div id="ProfessionalSalary" style="display: none">
+            $89,960
+        </div>
+        
+        <script>
+        function Professional() {
+            var x = document.getElementById("ProfessionalSalary");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+</script>       
+        
+        
+    </body>
+</html>

@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 1024px;
+    width: 768px;
+}
+
+.Header h1{
+    font-family: "berlin-sans",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 58px;
+    text-align: center;
+    position: relative;
+}
+
+.Subheader h2 {
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.Reveal1 {
+    background-color: #0c3021;
+    color: white;
+    cursor: pointer;
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    position: relative;
+    top: 75px;
+}
+
+.active, .Reveal1:hover {
+    background-color: #21634c;
+}
+
+.Income {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 75px;
+}
+
+.Reveal2 {
+    background-color: #0c3021;
+    color: white;
+    cursor: pointer;
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    position: relative;
+    top: 125px;
+}
+
+.active, .Reveal2:hover {
+    background-color: #21634c;
+}
+
+.Tax {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 125px;
+}
+
+.Reveal3 {
+    background-color: #0c3021;
+    color: white;
+    cursor: pointer;
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    position: relative;
+    top: 175px;
+}
+
+.active, .Reveal3:hover {
+    background-color: #21634c;
+}
+
+.Monthly {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 175px;
+}
+
+.Moneybag{
+    position:relative;
+    transform: scale( .75,.75);
+    left: 25px;
+    bottom: -175px;
+}
+
+.Next{
+    position: relative;
+    left: 400px;
+    bottom: 100px;
+}

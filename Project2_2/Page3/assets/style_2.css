@@ -1,0 +1,160 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.Subheader {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 27px;
+    width: 850px;
+    position: relative;
+    left: 30px;
+    top: 20px;
+}
+
+.Reveal1 {
+    background-color: #0c3021;
+    color: white;
+    cursor: pointer;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    position: relative;
+    top: 75px;
+}
+
+.active, .Reveal1:hover {
+    background-color: #21634c;
+}
+
+.Income {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 75px;
+}
+
+.Reveal2 {
+    background-color: #0c3021;
+    color: white;
+    cursor: pointer;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    position: relative;
+    top: 100px;
+}
+
+.active, .Reveal2:hover {
+    background-color: #21634c;
+}
+
+.Tax {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.Reveal3 {
+    background-color: #0c3021;
+    color: white;
+    cursor: pointer;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    position: relative;
+    top: 125px;
+}
+
+.active, .Reveal3:hover {
+    background-color: #21634c;
+}
+
+.Monthly {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 125px;
+}
+
+.Pathway {
+    position: absolute;
+    top: 60px;
+    left: 1150px;
+    z-index: -1;
+}
+
+.Next {
+    position: absolute;
+    top: 700px;
+    left: 700px;
+}
+
+.Note {
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    position: absolute;
+    top: 650px;
+    left: 500px
+}

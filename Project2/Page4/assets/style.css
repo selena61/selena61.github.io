@@ -1,0 +1,78 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 1024px;
+    width: 768px;
+}
+
+.Header {
+    font-family: "berlin-sans",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.Subheader {
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+
+.Loans {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.Reveal {
+    background-color: #0c3021;
+    color: white;
+    cursor: pointer;
+    font-family: "century-gothic",sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 30px;
+    position: relative;
+    top: 50px;
+}
+.active, .Reveal:hover {
+    background-color: #21634c;
+}
+
+.Star, .StarFacts {
+    width:650px;height:650px;
+    position: relative;
+    top: 35px;
+    left: 75px;
+}
+
+a {
+    position:relative;
+    left: 475px;
+    top: 25px;
+}

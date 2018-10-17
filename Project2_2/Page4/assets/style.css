@@ -1,0 +1,224 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.Subheader {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 23px;
+    width: 850px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.Pathway {
+    position: absolute;
+    left: 1150px;
+    top: 60px;
+}
+
+.Next {
+    position: absolute;
+    left: 700px;
+    top: 700px;
+}
+
+.HighSchool {
+    background-color: #23634c;
+    border-radius: 8px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 25px;
+    position: absolute;
+}
+
+#HighSchoolSalary {
+    display: none;
+    width: 186px;
+    height: 65px;
+    background: #95bcad;
+    border-radius: 100px / 50px;
+    margin-left: 45px;
+    margin-top: 125px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+}
+
+.Associates {
+    background-color: #23634c;
+    border-radius: 8px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 300px;
+    position: absolute;
+}
+
+#AssociatesSalary {
+    display: none;
+    width: 186px;
+    height: 65px;
+    background: #95bcad;
+    border-radius: 100px / 50px;
+    margin-top: 125px;
+    margin-left: 300px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;   
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+}
+
+.Bachelors {
+    background-color: #23634c;
+    border-radius: 8px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 50px;
+    margin-left: 550px; 
+    position: absolute;
+}
+
+#BachelorsSalary {
+    display: none;
+    width: 186px;
+    height: 65px;
+    background: #95bcad;
+    border-radius: 100px / 50px;
+    margin-top: 125px;
+    margin-left: 550px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;   
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+}
+
+.Masters {
+    background-color: #23634c;
+    border-radius: 8px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 60px;
+    position: absolute;
+}
+
+#MastersSalary {
+    display: none;
+    width: 186px;
+    height: 65px;
+    background: #95bcad;
+    border-radius: 100px / 50px;
+    margin-top: 375px;
+    margin-left: 45px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;   
+    text-align: center;
+    padding: 15px;
+    position: absolute;  
+}
+
+.Doctoral {
+    background-color: #23634c;
+    border-radius: 8px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 320px;
+    position: absolute;    
+}
+
+#DoctoralSalary {
+    display: none;
+    width: 186px;
+    height: 65px;
+    background: #95bcad;
+    border-radius: 100px / 50px;
+    margin-top: 375px;
+    margin-left: 310px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;   
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+}
+
+.Professional {
+    background-color: #23634c;
+    border-radius: 8px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+    margin-top: 300px;
+    margin-left: 550px;
+    position: absolute;
+}
+
+#ProfessionalSalary {
+    display: none;
+    width: 186px;
+    height: 65px;
+    background: #95bcad;
+    border-radius: 100px / 50px;
+    margin-top: 375px;
+    margin-left: 575px;
+    font-family: "century-old-style-std",serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;   
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="Page9/assets/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/lcg7eta.css">
+</head>
+
+<html>
+    <body>
+        <div class="Header">
+            <h1>
+                What should I look for in a college?
+            </h1>
+        </div>
+        
+        <div class="Subheader">
+            <h2>
+                Click through the slideshow to see what you should consider when looking for a college
+            </h2>
+        </div>
+        
+        <div class="container">
+          <div class="mySlides">
+            <div class="numbertext">1 / 5</div>
+            <img src="Page9/assets/images/Page9_Graduation.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">2 / 5</div>
+            <img src="Page9/assets/images/Page9_ratio.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">3 / 5</div>
+            <img src="Page9/assets/images/Page9_Location.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">4 / 5</div>
+            <img src="Page9/assets/images/Page9_Crowd.png" style="width:100%">
+          </div>
+
+          <div class="mySlides">
+            <div class="numbertext">5 / 5</div>
+            <img src="Page9/assets/images/Page9_Safety.png" style="width:100%">
+          </div>
+
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+
+          <div class="caption-container">
+            <p id="caption"></p>
+          </div>
+
+          <div class="row">
+            <div class="column">
+              <img class="demo cursor" src="Page9/assets/images/Page9_Graduation.png" style="width:100%" onclick="currentSlide(1)" alt="Gradution Rate">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Page9/assets/images/Page9_ratio.png" style="width:100%" onclick="currentSlide(2)" alt="Student to Teacher Ratio">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Page9/assets/images/Page9_Location.png" style="width:100%" onclick="currentSlide(3)" alt="School's Location">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Page9/assets/images/Page9_Crowd.png" style="width:100%" onclick="currentSlide(4)" alt="Size of School">
+            </div>
+            <div class="column">
+              <img class="demo cursor" src="Page9/assets/images/Page9_Safety.png" style="width:100%" onclick="currentSlide(5)" alt="Campus Safety">
+            </div>    
+          </div>
+        </div>
+        
+        <script>
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function plusSlides(n) {
+              showSlides(slideIndex += n);
+            }
+
+            function currentSlide(n) {
+              showSlides(slideIndex = n);
+            }
+
+            function showSlides(n) {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              var captionText = document.getElementById("caption");
+              if (n > slides.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = slides.length}
+              for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";
+              }
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";
+              dots[slideIndex-1].className += " active";
+              captionText.innerHTML = dots[slideIndex-1].alt;
+            }
+        </script>
+        
+        <div class="Pathway">
+            <img src="Page9/assets/images/Page9_Pathway.png">
+        </div>
+        
+        <a class="NextButton" href="page10.html">
+            <img src="Page9/assets/images/AllPages_Next.png">
+        </a>
+    </body>
+</html>

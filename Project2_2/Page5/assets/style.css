@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.Subheader {
+    font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    width: 850px;
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+
+.Pathway {
+    position: relative;
+    top: -65px;
+    left: 815px;
+}
+
+.Container1 {
+    position: relative;
+    height: 200px;
+    top: -750px;
+    left: 50px;
+}
+
+.Term {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.Term TermOverlay {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  width: 40px;
+  height: 40px;
+  background-color: #23634c;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.Container2 {
+    position: relative;
+    height: 200px;
+    top: -950px;
+    left: 450px;
+}
+
+.Growth {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.Growth GrowthOverlay {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider2 {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  /*set the appearance of the slider:*/
+  width: 40px;
+  height: 40px;
+  background-color: #23634c;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.Container3 {
+    position: relative;
+    height: 200px;
+    top: -900px;
+    left: 250px
+}
+
+.Move {
+  position: absolute;
+  width: auto;
+  height: auto;
+  overflow:hidden;
+}
+
+.Move MoveOverlay {
+  display:block;
+  vertical-align:middle;
+}
+
+.img-comp-slider3 {
+  position: absolute;
+  z-index:9;
+  cursor: ew-resize;
+  width: 40px;
+  height: 40px;
+  background-color: #23634c;
+  opacity: 0.7;
+  border-radius: 50%;
+}
+
+.Next {
+    position: relative;
+    top: -150px;
+    left: 300px;
+}
