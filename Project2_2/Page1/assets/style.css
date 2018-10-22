@@ -25,7 +25,7 @@ body {
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 45px;
     height: 322px;
     width: 500px;
     text-align: left;
@@ -43,6 +43,6 @@ body {
 
 .Diploma {
     position: relative;
-    top: -780px;
-    left: 100px;
+    top: -825px;
+    left: 75px;
 }
