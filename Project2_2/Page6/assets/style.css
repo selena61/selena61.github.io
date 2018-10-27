@@ -43,6 +43,8 @@ body {
     left: 800px;
 }
 
+/* Code for formatting the slideshow */
+
 * {
   box-sizing: border-box;
 }
@@ -52,7 +54,7 @@ img {
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.container_1 {
     position: relative;
     width: 550px;
     top: -750px;
@@ -60,18 +62,18 @@ img {
 }
 
 /* Hide the images by default */
-.mySlides {
+.mySlides_1 {
   display: none;
 }
 
 /* Add a pointer when hovering over the thumbnail images */
-.cursor {
+.cursor_1 {
   cursor: pointer;
 }
 
 /* Next & previous buttons */
-.prev,
-.next {
+.prev_1,
+.next_1 {
   cursor: pointer;
   position: absolute;
   top: 40%;
@@ -87,19 +89,19 @@ img {
 }
 
 /* Position the "next button" to the right */
-.next {
+.next_1 {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
+.prev_1:hover,
+.next_1:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text (1/3 etc) */
-.numbertext {
+.numbertext_1 {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -108,7 +110,7 @@ img {
 }
 
 /* Container for image text */
-.caption-container {
+.caption-container_1 {
     text-align: center;
     background-color: #222;
     padding: 2px 16px;
@@ -119,23 +121,23 @@ img {
     font-size: 25px;
 }
 
-.row:after {
+.row_1:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.column {
+.column_1 {
   float: left;
   width: 33.33%;
 }
 
 /* Add a transparency effect for thumnbail images */
-.demo {
+.demo_1 {
   opacity: 0.6;
 }
 
 .active,
-.demo:hover {
+.demo_1:hover {
   opacity: 1;
 }

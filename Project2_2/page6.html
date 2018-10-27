@@ -25,72 +25,45 @@
         <a href="page7.html" class="Next">
             <img src="Page6/assets/images/AllPages_Next.png">
         </a>
+    
+/* Slideshow */
         
-        <div class="container">
-          <div class="mySlides">
-            <div class="numbertext">1 / 3</div>
+        <div class="container_1">
+          <div class="mySlides_1">
+            <div class="numbertext_1">1 / 3</div>
             <img src="Page6/assets/images/Page6_PiggyBank.png" style="width:100%">
           </div>
 
-          <div class="mySlides">
-            <div class="numbertext">2 / 3</div>
+          <div class="mySlides_1">
+            <div class="numbertext_1">2 / 3</div>
             <img src="Page6/assets/images/Page6_Job.png" style="width:100%">
           </div>
 
-          <div class="mySlides">
-            <div class="numbertext">3 / 3</div>
+          <div class="mySlides_1">
+            <div class="numbertext_1">3 / 3</div>
             <img src="Page6/assets/images/Page6_Network.png" style="width:100%">
           </div>
             
-            <a class="prev" onclick="plusSlides(-1)">❮</a>
-          <a class="next" onclick="plusSlides(1)">❯</a>
+            <a class="prev_1" onclick="plusSlides(-1)">❮</a>
+          <a class="next_1" onclick="plusSlides(1)">❯</a>
 
-          <div class="caption-container">
-            <p id="caption"></p>
+          <div class="caption-container_1">
+            <p id="caption_1"></p>
           </div>
 
-          <div class="row">
-            <div class="column">
-              <img class="demo cursor" src="Page6/assets/images/Page6_PiggyBank.png" style="width:100%" onclick="currentSlide(1)" alt="Increased Salary Potential">
+          <div class="row_1">
+            <div class="column_1">
+              <img class="demo_1 cursor_1" src="Page6/assets/images/Page6_PiggyBank.png" style="width:100%" onclick="currentSlide(1)" alt="Increased Salary Potential">
             </div>
-            <div class="column">
-              <img class="demo cursor" src="Page6/assets/images/Page6_Job.png" style="width:100%" onclick="currentSlide(2)" alt="Better Job Options">
+            <div class="column_1">
+              <img class="demo_1 cursor_1" src="Page6/assets/images/Page6_Job.png" style="width:100%" onclick="currentSlide(2)" alt="Better Job Options">
             </div>
-            <div class="column">
-              <img class="demo cursor" src="Page6/assets/images/Page6_Network.png" style="width:100%" onclick="currentSlide(3)" alt="Larger Social and Professional Network">
+            <div class="column_1">
+              <img class="demo_1 cursor_1" src="Page6/assets/images/Page6_Network.png" style="width:100%" onclick="currentSlide(3)" alt="Larger Social and Professional Network">
             </div>
             </div>
           </div>
         
-        <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("demo");
-          var captionText = document.getElementById("caption");
-          if (n > slides.length) {slideIndex = 1}
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";
-          dots[slideIndex-1].className += " active";
-          captionText.innerHTML = dots[slideIndex-1].alt;
-        }
-        </script>
+        <script src="interactive.js"></script>
     </body>
 </html>

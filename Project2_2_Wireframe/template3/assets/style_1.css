@@ -11,24 +11,25 @@ body {
 }
 
 .Header {
-    font-family: "copperplate",serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 27px;
-    position: relative;
-    left: 30px;
-    top: 10px;
+    height: 150px;
+    width: 700px;
+    background-color: #000;   
 }
 
 .Subheader {
-    font-family: "copperplate",serif;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 27px;
-    width: 850px;
-    position: relative;
-    left: 30px;
-    top: 20px;
+    height: 100px;
+    width: 700px;
+    background-color: gray;
+}
+
+.Pathway {
+    height: 768px;
+    width: 325px;
+    background-color: white;
+    position: relative; 
+    top: -250px;
+    left: 700px;
+    z-index: -1
 }
 
 .Reveal1_1 {
@@ -45,7 +46,7 @@ body {
     outline: none;
     font-size: 30px;
     position: relative;
-    top: 75px;
+    top: -775px;
 }
 
 .active, .Reveal1_1:hover {
@@ -63,7 +64,7 @@ body {
     font-size: 30px;
     text-align: center;
     position: relative;
-    top: 75px;
+    top: -775px;
 }
 
 .Reveal2_1 {
@@ -80,7 +81,7 @@ body {
     outline: none;
     font-size: 30px;
     position: relative;
-    top: 100px;
+    top: -725px;
 }
 
 .active, .Reveal2_1:hover {
@@ -98,7 +99,7 @@ body {
     font-size: 30px;
     text-align: center;
     position: relative;
-    top: 100px;
+    top: -725px;
 }
 
 .Reveal3_1 {
@@ -115,7 +116,7 @@ body {
     outline: none;
     font-size: 30px;
     position: relative;
-    top: 125px;
+    top: -675px;
 }
 
 .active, .Reveal3_1:hover {
@@ -133,28 +134,12 @@ body {
     font-size: 30px;
     text-align: center;
     position: relative;
-    top: 125px;
-}
-
-.Pathway {
-    position: absolute;
-    top: 60px;
-    left: 1160px;
-    z-index: -1;
+    top: -675px;
 }
 
 .Next {
     position: absolute;
     top: 700px;
-    left: 750px;
-}
-
-.Note {
-    font-family: "century-old-style-std",serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    position: absolute;
-    top: 650px;
-    left: 500px
+    left: 1150px;
+    font-size: 30px;
 }

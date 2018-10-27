@@ -31,7 +31,7 @@ body {
     top: 20px;
 }
 
-.Reveal1 {
+.Reveal1_2 {
     background-color: #0c3021;
     color: white;
     cursor: pointer;
@@ -48,7 +48,7 @@ body {
     top: 75px;
 }
 
-.active, .Reveal1:hover {
+.active, .Reveal1_2:hover {
     background-color: #21634c;
 }
 
@@ -66,7 +66,7 @@ body {
     top: 75px;
 }
 
-.Reveal2 {
+.Reveal2_2 {
     background-color: #0c3021;
     color: white;
     cursor: pointer;
@@ -83,7 +83,7 @@ body {
     top: 100px;
 }
 
-.active, .Reveal2:hover {
+.active, .Reveal2_2:hover {
     background-color: #21634c;
 }
 
@@ -101,7 +101,7 @@ body {
     top: 100px;
 }
 
-.Reveal3 {
+.Reveal3_2 {
     background-color: #0c3021;
     color: white;
     cursor: pointer;
@@ -118,7 +118,7 @@ body {
     top: 125px;
 }
 
-.active, .Reveal3:hover {
+.active, .Reveal3_2:hover {
     background-color: #21634c;
 }
 

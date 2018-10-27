@@ -61,51 +61,51 @@
 
           <div class="row">
             <div class="column">
-              <img class="demo cursor" src="Page9/assets/images/Page9_Graduation.png" style="width:100%" onclick="currentSlide(1)" alt="Gradution Rate">
+              <img class="demo cursor" src="Page9/assets/images/Page9_Graduation.png" style="width:100%" onclick="currentSlide1(1)" alt="Gradution Rate">
             </div>
             <div class="column">
-              <img class="demo cursor" src="Page9/assets/images/Page9_ratio.png" style="width:100%" onclick="currentSlide(2)" alt="Student to Teacher Ratio">
+              <img class="demo cursor" src="Page9/assets/images/Page9_ratio.png" style="width:100%" onclick="currentSlide1(2)" alt="Student to Teacher Ratio">
             </div>
             <div class="column">
-              <img class="demo cursor" src="Page9/assets/images/Page9_Location.png" style="width:100%" onclick="currentSlide(3)" alt="School's Location">
+              <img class="demo cursor" src="Page9/assets/images/Page9_Location.png" style="width:100%" onclick="currentSlide1(3)" alt="School's Location">
             </div>
             <div class="column">
-              <img class="demo cursor" src="Page9/assets/images/Page9_Crowd.png" style="width:100%" onclick="currentSlide(4)" alt="Size of School">
+              <img class="demo cursor" src="Page9/assets/images/Page9_Crowd.png" style="width:100%" onclick="currentSlide1(4)" alt="Size of School">
             </div>
             <div class="column">
-              <img class="demo cursor" src="Page9/assets/images/Page9_Safety.png" style="width:100%" onclick="currentSlide(5)" alt="Campus Safety">
+              <img class="demo cursor" src="Page9/assets/images/Page9_Safety.png" style="width:100%" onclick="currentSlide1(5)" alt="Campus Safety">
             </div>    
           </div>
         </div>
         
         <script>
-            var slideIndex = 1;
-            showSlides(slideIndex);
+            var slideIndex1 = 1;
+            showSlides(slideIndex1);
 
-            function plusSlides(n) {
-              showSlides(slideIndex += n);
+            function plusSlides(o) {
+              showSlides(slideIndex1 += o);
             }
 
-            function currentSlide(n) {
-              showSlides(slideIndex = n);
+            function currentSlide1(o) {
+              showSlides(slideIndex1 = o);
             }
 
-            function showSlides(n) {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("demo");
-              var captionText = document.getElementById("caption");
-              if (n > slides.length) {slideIndex = 1}
-              if (n < 1) {slideIndex = slides.length}
-              for (i = 0; i < slides.length; i++) {
-                  slides[i].style.display = "none";
+            function showSlides(o) {
+              var p;
+              var slides1 = document.getElementsByClassName("mySlides");
+              var dots1 = document.getElementsByClassName("demo");
+              var captionText1 = document.getElementById("caption");
+              if (o > slides1.length) {slideIndex1 = 1}
+              if (o < 1) {slideIndex1 = slides1.length}
+              for (p = 0; p < slides1.length; p++) {
+                  slides1[p].style.display = "none";
               }
-              for (i = 0; i < dots.length; i++) {
-                  dots[i].className = dots[i].className.replace(" active", "");
+              for (p = 0; p < dots1.length; p++) {
+                  dots1[p].className = dots1[p].className.replace(" active", "");
               }
-              slides[slideIndex-1].style.display = "block";
-              dots[slideIndex-1].className += " active";
-              captionText.innerHTML = dots[slideIndex-1].alt;
+              slides1[slideIndex1-1].style.display = "block";
+              dots1[slideIndex1-1].className += " active";
+              captionText1.innerHTML = dots1[slideIndex1-1].alt;
             }
         </script>
         

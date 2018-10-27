@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    height: 200px;
+    width: 700px;
+    background-color: #000;   
+}
+
+.Subheader {
+    height: 400px;
+    width: 300px;
+    background-color: gray;
+}
+
+.Diploma {
+    height: 400px;
+    width: 300px;
+    background-color: gainsboro;
+    position: relative;
+    top: -1123px;
+    left: 300px
+}
+
+.Pathway {
+    height: 724px;
+    width: 300px;
+    background-color: white;
+    position: relative; 
+    left: 725px;
+    top: -600px
+}
+
+.Next {
+    background-color: bisque;
+    font-size: 40px;
+    position: relative;
+    top: -1100px;
+    left: 850px;
+}

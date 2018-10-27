@@ -1,13 +1,5 @@
 <!DOCTYPE html>
 
-<script type="text/javascript">
-    function unhide("Reveal1") {
-var item = document.getElementById("Reveal1");
-        if (item) {item.className=(item.className=='hidden');
-        }
-    }
-</script>
-
 <head>
     <link rel="stylesheet" href="Page3/assets/style_1.css">
     <link rel="stylesheet" href="https://use.typekit.net/lcg7eta.css">
@@ -25,76 +17,25 @@ var item = document.getElementById("Reveal1");
             Click on the box to reveal how much you will make based on the level of education you chose
         </div>
         
-        <button class="Reveal1"> Your annual salary will be
+        <button class="Reveal1_1"> Your annual salary will be
         </button>
         <div class="Income">
             $35,256
         </div>  
-        
-        <script>
-            var coll = document.getElementsByClassName("Reveal1");
-            var i;
 
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
-        </script>
-
-        <button class="Reveal2">
+        <button class="Reveal2_1">
             You will be taxed at a rate of 
         </button>
         <div class="Tax">
             15%
         </div>
         
-        <script>
-            var coll = document.getElementsByClassName("Reveal2");
-            var i;
-
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
-        </script>
-        
-        <button class="Reveal3">
+        <button class="Reveal3_1">
             After taxes, each month you will take home
         </button>
         <div class="Monthly">
             $2,310
         </div>
-        
-        <script>
-            var coll = document.getElementsByClassName("Reveal3");
-            var i;
-
-            for (i = 0; i < coll.length; i++) {
-              coll[i].addEventListener("click", function() {
-                this.classList.toggle("active");
-                var content = this.nextElementSibling;
-                if (content.style.display === "block") {
-                  content.style.display = "none";
-                } else {
-                  content.style.display = "block";
-                }
-              });
-            }
-        </script>
         
         <div class="Pathway">
             <img src="Page3/assets/images/Page3_Pathway.png">
@@ -110,6 +51,8 @@ var item = document.getElementById("Reveal1");
             </h3>
         </div>
         
+        <script src="interactive.js">
+        </script>
     </body>
 
 </html>
