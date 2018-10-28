@@ -1,0 +1,68 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    height: 150px;
+    width: 700px;
+    background-color: #000;   
+}
+
+.Subheader {
+    height: 100px;
+    width: 700px;
+    background-color: gray;
+}
+
+.Pathway {
+    height: 768px;
+    width: 325px;
+    background-color: white;
+    position: relative; 
+    top: -250px;
+    left: 700px;
+    z-index: -1
+}
+
+.image1 {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    position: relative;
+    top: -750px;
+    left: 50px;
+}
+
+.image2 {
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    position: relative;
+    top: -950px;
+    left: 400px;
+}
+
+.image3 {
+    height: 200px;
+    width: 200px;
+    background-color: darkblue;
+    position: relative;
+    top: -900px;
+    left: 225px;
+    
+}
+
+.Next {
+    position: relative;
+    font-size: 30px;
+    top: -300px;
+    left: 850px;
+}
