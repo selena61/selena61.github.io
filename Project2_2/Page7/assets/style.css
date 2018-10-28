@@ -10,17 +10,17 @@ body {
     width: 1024px;
 }
 
-.Header {
+.Header h1{
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 50px;
     position: relative;
     left: 20px;
     top: 10px;
 }
 
-.Subheader {
+.Subheader h2{
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 400;
@@ -32,8 +32,9 @@ body {
 
 .Pathway {
     position: relative;
-    top: -310px;
-    left: 820px;
+    top: -300px;
+    left: 800px;
+    z-index: -1;
 }
 
 .Circle1{
@@ -140,5 +141,5 @@ body {
 .Next {
     position: relative;
     top: -425px;
-    left: 825px;
+    left: 810px;
 }

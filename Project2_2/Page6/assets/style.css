@@ -10,21 +10,21 @@ body {
     width: 1024px;
 }
 
-.Header {
+.Header h1 {
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 46px;
     position: relative;
     left: 20px;
     top: 10px;
 }
 
-.Subheader {
+.Subheader h2{
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 27px;
     width: 850px;
     position: relative;
     left: 20px;
@@ -32,14 +32,15 @@ body {
 }
 
 .Pathway {
-  position: relative;
-  top: -70px;
-  left: 800px;
+    position: relative;
+    top: -70px;
+    left: 800px;
+    z-index: -1
 }
 
 .Next {
     position: relative;
-    top: -150px;
+    top: -160px;
     left: 800px;
 }
 

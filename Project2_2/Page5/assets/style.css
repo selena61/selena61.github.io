@@ -10,21 +10,21 @@ body {
     width: 1024px;
 }
 
-.Header {
+.Header h1 {
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 47px;
     position: relative;
     left: 20px;
     top: 10px;
 }
 
-.Subheader {
+.Subheader h2 {
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 30px;
     width: 850px;
     position: relative;
     left: 20px;
@@ -33,14 +33,15 @@ body {
 
 .Pathway {
     position: relative;
-    top: -65px;
-    left: 815px;
+    top: -70px;
+    left: 800px;
+    z-index: -1;
 }
 
 .Container1 {
     position: relative;
     height: 200px;
-    top: -750px;
+    top: -700px;
     left: 50px;
 }
 
@@ -70,7 +71,7 @@ body {
 .Container2 {
     position: relative;
     height: 200px;
-    top: -950px;
+    top: -900px;
     left: 450px;
 }
 
@@ -101,7 +102,7 @@ body {
 .Container3 {
     position: relative;
     height: 200px;
-    top: -900px;
+    top: -800px;
     left: 250px
 }
 
@@ -130,6 +131,6 @@ body {
 
 .Next {
     position: relative;
-    top: -150px;
-    left: 300px;
+    top: -160px;
+    left: 805px;
 }

@@ -10,19 +10,29 @@ body {
     width: 1024px;
 }
 
-.Header {
+.Header h1{
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 45px;
     position: relative;
     left: 20px;
     top: 10px;
 }
 
+.Subheader h2{
+   font-family: "copperplate",serif;
+    font-style: normal;
+    font-weight: 300; 
+    font-size: 26px;
+    position: relative;
+    top: 10px;
+    left: 20px;
+}
+
 .Pathway {
     position: relative;
-    top: -65px;
+    top: -95px;
     left: 800px;
     z-index: -1;
 }
@@ -36,8 +46,9 @@ body {
 
 .DiplomaBooks {
     position: relative;
-    top: -450px;
-    left: 25px;
+    top: -475px;
+    left: 100px;
+    transform: scale(.8,.8)
 }
 
 .Yes {
@@ -52,26 +63,8 @@ body {
     left: 200px;
 }
 
-.SAT {
-    position: relative;
-    top: -850px;
-    left: 50px
-}
-
-.ACT {
-    position: relative;
-    top: -850px;
-    left: 150px;
-}
-
-.CommonApp {
-    position: relative;
-    top: -850px;
-    left: 250px;
-}
-
 .Kind {
     position: relative;
     top: -825px;
-    left: 175px;
+    left: 250px;
 }

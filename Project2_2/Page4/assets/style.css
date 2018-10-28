@@ -10,21 +10,21 @@ body {
     width: 1024px;
 }
 
-.Header {
+.Header h1 {
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 47px;
     position: relative;
     left: 20px;
     top: 10px;
 }
 
-.Subheader {
-    font-family: "copperplate",serif;
+.Subheader h2 {
+    font-family: "copperplate", serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 30px;
     width: 850px;
     position: relative;
     left: 20px;
@@ -35,12 +35,13 @@ body {
     position: absolute;
     left: 1150px;
     top: 60px;
+    z-index: -1;
 }
 
 .Next {
     position: absolute;
     left: 700px;
-    top: 700px;
+    top: 680px;
 }
 
 .HighSchool {
@@ -82,7 +83,7 @@ body {
     font-size: 40px;
     color: #fff;
     margin-top: 50px;
-    margin-left: 300px;
+    margin-left: 325px;
     position: absolute;
 }
 
@@ -93,7 +94,7 @@ body {
     background: #95bcad;
     border-radius: 100px / 50px;
     margin-top: 125px;
-    margin-left: 300px;
+    margin-left: 330px;
     font-family: "century-old-style-std",serif;
     font-style: normal;
     font-weight: 400;
@@ -112,7 +113,7 @@ body {
     font-size: 40px;
     color: #fff;
     margin-top: 50px;
-    margin-left: 550px; 
+    margin-left: 600px; 
     position: absolute;
 }
 
@@ -123,7 +124,7 @@ body {
     background: #95bcad;
     border-radius: 100px / 50px;
     margin-top: 125px;
-    margin-left: 550px;
+    margin-left: 600px;
     font-family: "century-old-style-std",serif;
     font-style: normal;
     font-weight: 400;
@@ -172,7 +173,7 @@ body {
     font-size: 40px;
     color: #fff;
     margin-top: 300px;
-    margin-left: 320px;
+    margin-left: 345px;
     position: absolute;    
 }
 
@@ -183,7 +184,7 @@ body {
     background: #95bcad;
     border-radius: 100px / 50px;
     margin-top: 375px;
-    margin-left: 310px;
+    margin-left: 330px;
     font-family: "century-old-style-std",serif;
     font-style: normal;
     font-weight: 400;
@@ -202,7 +203,7 @@ body {
     font-size: 40px;
     color: #fff;
     margin-top: 300px;
-    margin-left: 550px;
+    margin-left: 575px;
     position: absolute;
 }
 
@@ -213,7 +214,7 @@ body {
     background: #95bcad;
     border-radius: 100px / 50px;
     margin-top: 375px;
-    margin-left: 575px;
+    margin-left: 600px;
     font-family: "century-old-style-std",serif;
     font-style: normal;
     font-weight: 400;

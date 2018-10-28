@@ -10,17 +10,17 @@ body {
     width: 1024px;
 }
 
-.Header {
+.Header h1{
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 27px;
+    font-size: 47px;
     position: relative;
     left: 30px;
     top: 10px;
 }
 
-.Subheader {
+.Subheader h2{
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 300;
@@ -139,13 +139,13 @@ body {
 .Pathway {
     position: absolute;
     top: 60px;
-    left: 1160px;
+    left: 1140px;
     z-index: -1;
 }
 
 .Next {
     position: absolute;
-    top: 700px;
+    top: 690px;
     left: 750px;
 }
 

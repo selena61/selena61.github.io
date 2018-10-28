@@ -10,21 +10,21 @@ body {
     width: 1024px;
 }
 
-.Header {
+.Header h1{
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 23px;
+    font-size: 45px;
     position: relative;
     left: 20px;
     top: 10px;
 }
 
-.Subheader {
+.Subheader h2{
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 23px;
+    font-size: 35px;
     width: 850px;
     position: relative;
     left: 20px;
@@ -35,6 +35,7 @@ body {
     position: relative;
     top: -260px;
     left: 800px;
+    z-index: -1;
 }
 
 .DiplomaBooks {

@@ -46,4 +46,17 @@ body {
     position: relative;
     top: -65px;
     left: 800px;
+    z-index:-1;
+}
+
+.LeftArrow {
+    position: relative;
+    top: -950px;
+    left: 450px;
+}
+
+.RightArrow {
+    position: relative;
+    top: -750px;
+    left: 50px;
 }

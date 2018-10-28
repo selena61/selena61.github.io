@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #a2c6e0;
+    margin: auto;
+    border: 5px solid #000;
+    height: 768px;
+    width: 1024px;
+}
+
+.Header {
+    height: 150px;
+    width: 700px;
+    background-color: #000;   
+}
+
+.Subheader {
+    height: 100px;
+    width: 700px;
+    background-color: gray;
+}
+
+.Pathway {
+    height: 768px;
+    width: 325px;
+    background-color: white;
+    position: relative; 
+    top: -250px;
+    left: 700px;
+    z-index: -1
+}
+
+.InfoBox {
+    height: 200px;
+    width: 500px;
+    background-color: bisque;
+    position: relative;
+    top: -700px;
+    left: 75px;
+}
+
+.link {
+    height: 100px;
+    width: 300px;
+    background-color:brown;
+    position: relative;
+    top: -650px;
+    left: 75px;
+    color: white;
+}

@@ -10,21 +10,21 @@ body {
     width: 1024px;
 }
 
-.Header {
+.Header h1 {
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 50px;
     position: relative;
     left: 20px;
     top: 10px;
 }
 
-.Subheader {
+.Subheader h2 {
     font-family: "copperplate",serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 27px;
     position: relative;   
     left: 20px;
     top: 20px;
@@ -32,8 +32,9 @@ body {
 
 .Pathway {
     position: relative;
-    top: -40px;
+    top: -30px;
     left: 800px;
+    z-index: -1;
 }
 
 .Aid {
@@ -58,6 +59,7 @@ body {
     position: relative;
     top: -1125px;
     left: 450px;
+    z-index: 10;
 }
 
 .Money {
