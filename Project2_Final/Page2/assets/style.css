@@ -21,9 +21,9 @@ body {
 }
 
 .Subheader h2 {
-    font-family: "copperplate",serif;
+    font-family: "century-old-style-std", serif;
+    font-weight: 400;
     font-style: normal;
-    font-weight: 300;
     font-size: 30px;
     position: relative;
     left: 25px;
