@@ -1,0 +1,269 @@
+* {
+    margin:0
+}
+
+body {
+    border-left: .1875rem solid #000;
+    border-right: .1875rem solid #000;
+    border-top: .1875rem solid #000;
+    width: 22.5rem;
+    margin: auto;
+}
+
+.menu {
+    font-size: 2.1875rem;
+    cursor: pointer;
+    margin-left: .625rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 2.75rem;
+}
+
+.sidenav a {
+    padding: .5rem .5rem .5rem 2rem;
+    text-decoration: none;
+    font-size: 2.1875rem;
+    margin-right: 1rem;
+    font-family: mrs-eaves,serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1.5625rem;
+    font-size: 3.075rem;
+    margin-right:-1.125rem;
+}
+
+.About {
+    width: 22.5rem;
+    height: 3.5rem;
+    background-color: #959a9d;
+    margin-top: -3rem;
+}
+
+.About h1 {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.Image {
+    transform: scale(.05);
+    margin-left: -300px;
+    margin-top: -1825px;
+}
+
+.AboutSection {
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    margin-top: -2030px;
+    width: 200px;
+    margin-left: 150px;
+}
+
+.Info {
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 13.3px;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 330px;
+}
+
+.SkillsHeader {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Skills {
+    width: 300px;
+    height: 100px;
+    border: .1875rem solid #959a9d;
+    margin-left: 25px;
+    padding: 5px;
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.CourseworkHeader {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.Coursework {
+    width: 300px;
+    height: 65px;
+    border: .1875rem solid #959a9d;
+    margin-left: 25px;
+    padding: 5px;
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.IntershipHeader {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.InternshipExperience {
+    width: 300px;
+    height: 190px;
+    border:.1875rem solid #959a9d;
+    margin-left: 25px;
+    padding: 5px;
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.TRS h4 {
+    font-size: 17px;
+}
+
+.TRS {
+    font-size: 15px;
+}
+
+.IM h4 {
+    font-size: 17px;
+}
+
+.IM h5 {
+    font-size: 15px;
+}
+
+.Start h4 {
+    font-size: 17px;
+}
+
+.Start h5 {
+    font-size: 15px;
+}
+
+.NonProfitHeader {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.25rem;
+    margin-left: 15px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.NonProfit {
+    width: 300px;
+    height: 235px;
+    border:.1875rem solid #959a9d;
+    margin-left: 25px;
+    padding: 5px;
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.JIFFI h4 {
+    font-size: 18px
+}
+
+.COO h6 {
+    font-size: 15px;
+}
+
+.COO {
+    font-size: 14px;
+}
+
+.VP h6 {
+    font-size: 15px;
+}
+
+.VP {
+    font-size: 14px;
+}
+
+.Intern h6 {
+    font-size: 15px;
+}
+
+.Intern {
+    font-size: 14px;
+}
+
+.Associate h6 {
+    font-size: 15px;
+}
+
+.Associate {
+    font-size: 14px;
+}
+
+.Moneythink h4{
+    font-size: 18px;
+}
+
+.Pres h6 {
+    font-size: 15px;
+}
+
+.Pres {
+    font-size: 14px;
+}
+
+.Director h6 {
+    font-size: 15px;
+}
+
+.Director {
+    font-size: 14px;
+}
+
+.Back {
+    height: 25px;
+    width: 22.5rem;
+    background-color: #959a9d;
+    margin-bottom: 15px;
+}

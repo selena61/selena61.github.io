@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+}
+
+body {
+    border-left: .1875rem solid #000;
+    border-right: .1875rem solid #000;
+    border-top: .1875rem solid #000;
+    width: 22.5rem;
+    margin: auto;
+}
+
+.menu {
+    font-size: 2.1875rem;
+    cursor: pointer;
+    margin-left: .625rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 3.75rem;
+}
+
+.sidenav a {
+    padding: .5rem .5rem .5rem 2rem;
+    text-decoration: none;
+    font-size: 2.1875rem;
+    margin-right: 1rem;
+    font-family: mrs-eaves,serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1.5625rem;
+    font-size: 2.075rem;
+    margin-left: 3.125rem;
+}
+
+.MyWork {
+    width: 22.5rem;
+    height: 3.2rem;
+    background-color: #959a9d;
+}
+
+.MyWork h1{
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2.25rem;
+    text-align: center;
+    margin-top: -3rem;
+}
+
+.ABC {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.ABCBox {
+    height: 13.3125rem;
+    width: 22.5rem;
+    background-color: #e64027;
+}
+
+.ABCImg {
+    margin-top: -29rem;
+    margin-left: -4rem;
+    transform: scale(.25);
+}
+
+.ABCImg:hover .Alphabet {
+    opacity: 0.5;
+}
+
+.ABCImg:hover .ABCMiddle {
+    opacity: 1;
+}
+
+.Words {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.75rem;
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: -15rem;
+}
+
+.WordsBox {
+    height: 13.3125rem;
+    width: 22.5rem;
+    background-color: #a53f40;
+    margin-top: -4rem;
+}
+
+.WordsImg {
+    margin-left: -4rem;
+    margin-top: -21.5rem;
+    transform: scale(.25)
+}
+
+.WordsImg:hover .Words {
+    opacity: 0.5;
+}
+
+.WordsImg:hover .WordsMiddle{
+    opacity: 1;
+}
+
+.Story {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.75rem;
+    text-align: center;
+    margin-top: -12rem;
+    margin-bottom: 1rem;
+}
+
+.StoryBox {
+    height: 13.3125rem;
+    width: 22.5rem;
+    background-color: #8ab8da
+}
+
+.StoryImg {
+    margin-left: -4rem;
+    margin-top: -22rem;
+    transform: scale(.25)
+}
+
+.StoryImg:hover .Story {
+    opacity: 0.5;
+}
+
+.StoryImg:hover .StoryMiddle {
+    opacity: 1;
+}
+
+.Logo {
+    transform: scale(.3);
+    margin-top: -25rem;
+    margin-left: -4.5rem;
+}
+
+.Bottom {
+    width: 22.5rem;
+    height: 3.5rem;
+    background-color: #959a9d;
+}
+
+@media screen and (min-width: 568px) {
+    body {
+        width: 35.5rem;
+    }
+    
+    .MyWork h1{
+        font-size: 3.5rem;
+    }
+    
+    .Line {
+        margin-left: 10rem;
+        width: 15rem;
+    }
+    
+    .Reel {
+        font-size: 2.75rem;
+        text-align: left;
+    }
+    
+    .Words {
+        font-size: 2.75rem;
+        text-align: right;
+    }
+    
+    .WordsBox {
+        margin-left: 13rem;
+    }
+    
+    .WordsImg {
+        margin-left: .5rem
+    }
+    
+    .Story {
+        font-size: 2.75rem;
+        text-align: left;
+    }
+}

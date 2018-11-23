@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+}
+
+body {
+    border-left: .1875rem solid #000;
+    border-right: .1875rem solid #000;
+    border-top: .1875rem solid #000;
+    width: 22.5rem;
+    height: 100rem;
+    margin: auto;
+}
+
+.MainImage {
+    width: 21.25rem;
+    height: 12.5rem;
+    margin: .625rem;
+    background-color: purple;
+}
+
+.Menu {
+    width: 3.125rem;
+    height: 3.125rem;
+    background-color: palevioletred;
+    margin-left: 18.125rem;
+    margin-top: -12.5rem;
+}
+
+.Image1 {
+    width: 9.375rem;
+    height: 9.375rem;
+    background-color: pink;
+    margin-left: 3.125rem;
+    margin-top: 10.625rem;
+}
+
+.Number1 {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    background-color: coral;
+    margin-left: 15.625rem;
+    margin-top: -6.875rem;
+}
+
+.Image2 {
+    width: 9.375rem;
+    height: 9.375rem;
+    background-color: pink;
+    margin-top: 3.75rem;
+    margin-left: 3.125rem;
+}
+
+.Number2 {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    background-color: coral;
+    margin-left: 15.625rem;
+    margin-top: -6.875rem;
+}
+
+.Image3 {
+    width: 9.375rem;
+    height: 9.375rem;
+    background-color: pink;
+    margin-left: 3.125rem;
+    margin-top: 3.75rem;
+}
+
+.Number3 {
+    width: 4.6875rem;
+    height: 4.6875rem;
+    background-color: coral;
+    margin-left: 15.625rem;
+    margin-top: -6.875rem;
+}
+
+.FinalImage{
+    width: 18.75rem;
+    height: 18.75rem;
+    background-color: deeppink;
+    margin-top: 3.75rem;
+    margin-left: 1.875rem;
+}
+
+.Description {
+    width: 18.75rem;
+    height: 12.5rem;
+    background-color: mediumpurple;
+    margin-top: 2.5rem;
+    margin-left: 1.875rem;
+}
+
+.Logo {
+    height: 9.375rem;
+    width: 9.375rem;
+    background-color: skyblue;
+    margin-left: 6.5625rem;
+    margin-top: 2.5rem;
+}
+
+.FullMenu {
+    height: 3.125rem;
+    width: 20rem;
+    background-color: palevioletred;
+    margin-left: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 64rem;
+    }
+
+    .MainImage {
+        width: 62.75rem;
+        height: 25rem;
+    }
+
+    .Menu {
+        width: 62.75rem;
+        height:4rem;
+        margin-left: .625rem;
+        margin-top: -25.75rem;
+    }
+
+    .Image1 {
+        width: 25rem;
+        height: 25rem;
+        margin-top: 40rem;
+    }
+
+    .Number1 {
+        width: 13rem;
+        height: 13rem;
+        margin-top: -19rem;
+        margin-left: 40rem;
+    }
+
+    .Image2 {
+        width: 25rem;
+        height: 25rem;
+        margin-top: 10rem;
+        margin-left: 35rem;
+    }
+
+    .Number2 {
+        width: 13rem;
+        height: 13rem;
+        margin-top: -19rem;
+        margin-left: 9rem;
+    }
+
+    .Image3 {
+        width: 25rem;
+        height: 25rem;
+        margin-top: 10rem;
+    }
+
+    .Number3 {
+        width: 13rem;
+        height: 13rem;
+        margin-top: -19rem;
+        margin-left: 40rem;
+    }
+
+    .FinalImage {
+        width: 36rem;
+        height: 36rem;
+        margin-top: 10rem;
+        margin-left: 14rem;
+    }
+
+    .Description {
+        margin-top: -140rem;
+        width: 50rem;
+        margin-left: 7rem;
+    }
+
+    .Logo {
+        width: 18rem;
+        height: 18rem;
+        margin-left: 23rem;
+        margin-top: 130rem;
+    }
+
+    .FullMenu {
+        width: 50rem;
+        margin-left: 7rem;
+        margin-bottom: 3rem;
+    }
+}

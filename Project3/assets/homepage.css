@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+}
+
+body {
+    border-left: .1875rem solid #000;
+    border-right: .1875rem solid #000;
+    width: 22.5rem;
+    margin: auto;
+}
+
+.Logo {
+    transform: scale(.25);
+    margin-top: -15rem;
+    margin-right: 5.5rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem 3.85rem;
+    text-decoration: none;
+    font-family: mrs-eaves,serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: #000;
+}
+
+.topnav a.active {
+  background-color: #fff;
+  color: #000;
+}
+
+.Quote h2 {
+    margin: -15rem .5rem .5rem;
+    text-align: center;
+    font-family: mrs-eaves,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Quote h4 {
+    text-align: right;
+    margin-right: 1rem;
+    font-family: mrs-eaves,serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@media screen and (min-width: 568px) {
+    body {
+        width: 35.5rem;
+    }
+    
+    .Logo {
+        transform: scale(.3);
+        margin-top: -15.5rem;
+        margin-left: 2.5rem;
+    }
+    
+    .topnav a {
+        padding: 2rem 7.1rem;
+    }
+    
+    .Quote h2{
+        margin: -15.5rem 2rem 0 2rem;
+        font-size: 1.75rem;
+    }
+    
+    .Quote h4 {
+        font-size: 1.25rem;
+    }
+}
+    
+@media screen and (min-width: 768px) {
+    body {
+        width: 48rem;
+    }
+    
+    .Logo {
+        transform: scale(.4);
+        margin-top: -13rem;
+    }
+    
+    .topnav a {
+        font-size: 1.75rem;
+        padding: 2rem 9.95rem;
+    }
+    
+    .Quote h2 {
+        font-size: 2.25rem;
+        margin: -13rem 2rem 0 2rem;
+    }
+    
+    .Quote h4 {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+}
+
+body {
+    border-left: .1875rem solid #000;
+    border-right: .1875rem solid #000;
+    border-top: .1875rem solid #000;
+    width: 22.5rem;
+    margin: auto;
+}
+
+.Logo {
+    height: 6.25rem;
+    width: 4.6875rem;
+    background-color: skyblue;
+}
+
+.Header{
+    height: 6.25rem;
+    width: 1687m;
+    background-color: lightblue;
+    margin-left: 4.6875rem;
+    margin-top: -6.25rem;
+}
+
+.Menu {
+    height: 4rem;
+    width: 4rem;
+    background-color: blue;
+    margin-left: 18.5rem;
+    margin-top: -6.25rem;
+}
+
+.Image1 {
+    height: 12.5rem;
+    width: 12.5rem;
+    background-color: palevioletred;
+    margin: 3rem .625rem 0 .625rem;
+}
+
+.Description1 {
+    height: 6.25rem;
+    width: 8.125rem;
+    background-color: mediumvioletred;
+    margin-left: 13.75rem;
+    margin-top: -9rem;
+}
+
+.Image2 {
+    height: 12.5rem;
+    width: 12.5rem;
+    background-color: palevioletred;
+    margin: 5rem .625rem;
+    }
+
+.Description2 {
+    height: 6.25rem;
+    width: 8.125rem;
+    background-color: mediumvioletred;
+    margin-left: 13.75rem;
+    margin-top: -14rem;
+}
+
+.Image3 {
+    height: 12.5rem;
+    width: 12.5rem;
+    background-color: palevioletred;
+    margin: 5rem .625rem;
+}
+
+.Description3 {
+    height: 6.25rem;
+    width: 8.125rem;
+    background-color: mediumvioletred;
+    margin-left: 13.75rem;
+    margin-top: -14rem;
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        width: 64rem;
+    }
+
+    .Logo {
+        height: 15rem;
+        width: 15rem;: 
+    }
+
+    .Header {
+        height: 15rem;
+        width: 49rem;
+        margin-left: 15rem;
+        margin-top: -15rem;
+    }
+
+    .Menu {
+        height:8rem;
+        width: 64rem;
+        margin-left: 0rem;
+        margin-top: 0rem;
+    }
+    
+    .Image1 {
+        height: 27rem;
+        width: 27rem;
+        margin-top: 6rem;
+        margin-left: 4rem;
+    }
+
+    .Description1 {
+        height: 15rem;
+        width: 20rem;
+        margin-top: -22rem;
+        margin-left: 38rem;
+    }
+    
+    .Image2 {
+        height: 27rem;
+        width: 27rem;
+        margin-top: 14rem;
+        margin-left: 34rem;
+    }
+
+    .Description2 {
+        height: 15rem;
+        width: 20rem;
+        margin-top: -24rem;
+        margin-left: 7rem;
+    }
+
+    .Image3 {
+        height: 27rem;
+        width: 27rem;
+        margin-top: 14rem;
+        margin-left: 4rem;
+    }
+
+    .Description3 {
+        height: 15rem;
+        width: 20rem;
+        margin-top: -24rem;
+        margin-left: 38rem;
+    }
+}
