@@ -164,6 +164,7 @@ body {
     transform: scale(.3);
     margin-top: -25rem;
     margin-left: -4.5rem;
+    margin-bottom: -13rem;
 }
 
 .Bottom {
@@ -172,40 +173,130 @@ body {
     background-color: #959a9d;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 768px) {
     body {
-        width: 35.5rem;
+        width: 48rem;
+    }
+    
+    .MyWork {
+        width: 48rem;
+        height: 5rem;
     }
     
     .MyWork h1{
         font-size: 3.5rem;
     }
     
-    .Line {
-        margin-left: 10rem;
-        width: 15rem;
-    }
-    
-    .Reel {
+    .ABC {
         font-size: 2.75rem;
         text-align: left;
+        margin-left: .5rem;
+    }
+    
+    .ABCBox {
+        height: 20rem;
+        width: 35rem;
+    }
+    
+    .ABCImg {
+        transform: scale(.4);
+        margin-top: -32.5rem;
+        margin-right: -9rem;
     }
     
     .Words {
         font-size: 2.75rem;
         text-align: right;
+        margin-right: .5rem;
+        margin-top: -11rem;
     }
     
     .WordsBox {
         margin-left: 13rem;
+        height: 20rem;
+        width: 35rem;
+        margin-bottom: 1rem;
     }
     
     .WordsImg {
-        margin-left: .5rem
+        transform: scale(.4);
+        margin-top: -27rem;
+        margin-right: -14rem
     }
     
     .Story {
         font-size: 2.75rem;
         text-align: left;
+        margin-left: .5rem;
+    }
+    
+    .StoryBox {
+        height: 20rem;
+        width: 35rem;
+    }
+    
+    .StoryImg {
+        transform: scale(.4);
+        margin-top: -24rem;
+        margin-left: -1rem;
+    }
+    
+    .Logo {
+        margin-left: 4rem;
+    }
+    
+    .Bottom {
+        width: 48rem;
     }
 }
+
+@media screen and (min-width: 1200px) {
+    body {
+        width: 75rem;
+    }
+    
+    .MyWork {
+        width: 75rem;
+        height: 5rem;
+    }
+    
+    .MyWorkh1 {
+        font-size: 4.5rem;
+    }
+    
+    .ABC {
+        font-size: 3.5rem;
+        text-align: left;
+        margin-left: .5rem;
+    }
+    
+    .ABCBox {
+        height: 25rem;
+        width: 42rem;
+    }
+    
+    .ABCImg {
+        transform: scale(.5);
+        margin-top: -35rem;
+    }
+    
+    .Words {
+        font-size: 3.5rem;
+        margin-right: .5rem;
+        margin-top: -8rem;
+    }
+    
+    .WordsBox {
+        height: 25rem;
+        width: 42rem;
+        margin-left: 33rem;
+    }
+    
+    .WordsImg {
+        transform: scale(.5);
+        margin-top: -31.5rem;
+        margin-left: 17rem;
+    }
+}
+
+    
