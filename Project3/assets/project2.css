@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+}
+
+body {
+    border-left: .1875rem solid #000;
+    border-right: .1875rem solid #000;
+    border-top: .1875rem solid #000;
+    width: 22.5rem;
+    margin: auto;
+}
+
+.menu {
+    font-size: 2.1875rem;
+    cursor: pointer;
+    margin-left: .625rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 2.75rem;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1.5625rem;
+    font-size: 3.075rem;
+    margin-right:-1.125rem;
+}
+
+.sidenav a {
+    padding: .5rem .5rem .5rem 2rem;
+    text-decoration: none;
+    font-size: 2.1875rem;
+    margin-right: 1rem;
+    font-family: mrs-eaves,serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.Header {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem; 
+    text-align: center;
+    margin-top: -2.5rem;
+    margin-left: 2rem;
+}
+
+.HeaderBar {
+    width: 22.5rem;
+    height: 3.5rem;
+    background-color: #959a9d;
+    margin-top: -2.9rem;
+}
+
+.Project2 {
+    transform: scale(.25);
+    margin-top: -18rem;
+    margin-left: -11.5rem;
+}
+
+.TheProject {
+    margin-top: -19rem;
+    text-align:center;
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.ProjectDescription {
+    font-family: mrs-eaves, serif;
+    font-weight: 500;
+    font-style: normal; 
+    width: 20rem;
+    text-align: center;
+    margin-left: 1.25rem;
+}
+
+.Process {
+    text-align:center;
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.Photo1 {
+    transform: scale(.47);
+    margin-left: -7.1rem;
+    margin-top: -11rem;
+}
+
+.Number1 {
+    font-family: mrs-eaves,serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #a53f40;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -12rem;
+}
+
+.Description1 {
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.Photo2 {
+    transform: scale(.47);
+    margin-left: -7.1rem;
+    margin-top: -11rem;
+}
+
+.Number2 {
+    font-family: mrs-eaves,serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #a53f40;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -12rem;
+}
+
+.Description2 {
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.Photo3 {
+    transform: scale(.47);
+    margin-left: -7.1rem;
+    margin-top: -11rem;
+}
+
+.Number3 {
+    font-family: mrs-eaves,serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #a53f40;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -12rem;
+}
+
+.Description3 {
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.Photo4 {
+    transform: scale(.47);
+    margin-left: -7.1rem;
+    margin-top: -11rem;
+}
+
+.Number4 {
+    font-family: mrs-eaves,serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #a53f40;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -12rem;
+}
+
+.Description4 {
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.Photo5 {
+    transform: scale(.47);
+    margin-left: -7.1rem;
+    margin-top: -11rem;
+}
+
+.Number5 {
+    font-family: mrs-eaves,serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #a53f40;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -12rem;
+}
+
+.Description5 {
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.Box {
+    width: 22.5rem;
+    height: 2.5rem;
+    background-color: #959a9d;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem
+}

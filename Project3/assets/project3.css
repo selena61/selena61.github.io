@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+}
+
+body {
+    border-left: .1875rem solid #000;
+    border-right: .1875rem solid #000;
+    border-top: .1875rem solid #000;
+    width: 22.5rem;
+    margin: auto;
+}
+
+.menu {
+    font-size: 2.1875rem;
+    cursor: pointer;
+    margin-left: .625rem;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 2.75rem;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 1.5625rem;
+    font-size: 3.075rem;
+    margin-right:-1.125rem;
+}
+
+.sidenav a {
+    padding: .5rem .5rem .5rem 2rem;
+    text-decoration: none;
+    font-size: 2.1875rem;
+    margin-right: 1rem;
+    font-family: mrs-eaves,serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.Header {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -3rem;
+    margin-left: 1rem;
+}
+
+.HeaderBar {
+    width: 22.5rem;
+    height: 4.75rem;
+    background-color: #959a9d;
+    margin-top: -4.75rem;
+}
+
+.Project3_1 {
+    transform: scale(.25);
+    margin-top: -12rem;
+    margin-left: -10rem;
+}
+
+.Project3_2 {
+    transform: scale(.25);
+    margin-top: -36rem;
+    margin-left: 6rem;
+}
+
+.Project3_3 {
+    transform: scale(.25);
+    margin-top: -27rem;
+    margin-left: -10rem;
+}
+
+.Project3_4 {
+    transform: scale(.25);
+    margin-top: -36rem;
+    margin-left: 6rem;
+}
+
+.TheProject {
+    text-align: center;
+    font-family: regulator-nova, sans-serif;
+    font-weight; 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top: -13rem;
+}
+
+.Description {
+    font-family: mrs-eaves, serif;
+    font-weight: 500;
+    font-style: normal;
+    width: 20rem;
+    text-align: center;
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+}
+
+.Process {
+    text-align: center;
+    font-family: regulator-nova, sans-serif;
+    font-weight; 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.Graph1 {
+    transform: scale(.7);
+    margin-top: -2rem;
+    margin-left: 3rem;
+}
+
+.Number1 {
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -2.5rem;
+    color: #8ab8da;
+}
+
+.Description1 {
+    font-family: mrs-eaves, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.Graph2 {
+    transform: scale(.7);
+    margin-top: -4rem;
+    margin-left: 2rem;
+}
+
+.Number2 {
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -6.5rem;
+    color: #8ab8da;
+}
+
+.Description2 {
+    text-align: center;
+    font-family: mrs-eaves, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.Graph3 {
+    transform: scale(.7);
+}
+
+.Number3 {
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: #8ab8da;
+    
+}
+
+.Description3 {
+    text-align: center;
+    font-family: mrs-eaves, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.Graph4 {
+    transform: scale(.6);
+    margin-left: -5rem;
+    margin-top: -5rem;
+}
+
+.Number4 {
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: #8ab8da;
+    margin-top: -6rem;
+}
+
+.Description4 {
+    text-align: center;
+    font-family: mrs-eaves, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.Graph5 {
+    transform: scale(.6);
+    margin-left: -5rem;
+    margin-top: -2rem;
+}
+
+.Number5 {
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: #8ab8da;
+    margin-top: -4rem;
+}
+
+.Description5 {
+    text-align: center;
+    font-family: mrs-eaves, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.Graph6 {
+    transform: scale(.6);
+    margin-lefT: -5rem;
+    margin-top: -3rem;
+}
+
+.Number6 {
+    font-family: mrs-eaves, serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    color: #8ab8da;
+    margin-top: -5rem;
+}
+
+.Description6 {
+    text-align: center;
+    font-family: mrs-eaves, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem; 
+}
+
+.Bar {
+    width: 22.5rem;
+    height: 2.5rem;
+    background-color: #959a9d;
+    margin-top: 1rem;
+}
