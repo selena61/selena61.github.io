@@ -165,17 +165,11 @@ body {
     opacity: 1;
 }
 
-.Logo {
-    transform: scale(.3);
-    margin-top: -25rem;
-    margin-left: -4.5rem;
-    margin-bottom: -13rem;
-}
-
 .Bottom {
     width: 22.5rem;
     height: 2rem;
     background-color: #959a9d;
+    margin-top: -8rem;
 }
 
 .Bottom a {
@@ -261,17 +255,17 @@ body {
         margin-top: -24rem;
         margin-left: -1rem;
     }
-    
-    .Logo {
-        margin-left: 4rem;
-    }
+
     
     .Bottom {
         width: 48rem;
+        height: 3rem;
+        margin-top: -2rem;
     }
     
     .Bottom a {
-        margin-left: 7rem;
+        margin-left: 4rem;
+        font-size: 2.5rem;
     }
 }
 
@@ -341,16 +335,14 @@ body {
         margin-top: -27.5rem;
     }
     
-    .Logo {
-        transform: scale(.4);
-        margin-top: -20rem;
-    }
-    
     .Bottom {
+        margin-top: -2rem;
         width: 75rem;
+        height: 3rem;
     }
     
     .Bottom a {
+        font-size: 2.5rem;
         margin-left: 12rem;
     }
 }

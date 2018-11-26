@@ -294,8 +294,22 @@ body {
         width: 48rem;
     }
     
+    .menu {
+        font-size: 3rem;
+    }
+    
+    .sidenav a {
+        font-size: 3rem;
+    }
+    
+    .sidenav .closebtn {
+        font-size: 3rem;
+    }
+    
     .About {
         width: 48rem;
+        height: 5rem;
+        margin-top: -4rem;
     }
     
     .About h1 {
@@ -363,9 +377,22 @@ body {
         width: 75rem;
     }
     
+    .menu {
+        font-size: 4rem;
+    }
+    
+    .sidenav a {
+        font-size: 4rem;
+    }
+    
+    .sidenav .closebtn {
+        font-size: 4rem;
+    }
+    
     .About {
         width: 75rem;
-        height: 4.5rem;
+        height: 6.5rem;
+        margin-top: -5.3rem;
     }
     
     .About h1 {

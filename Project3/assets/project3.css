@@ -606,7 +606,7 @@ body {
     
     .Number5 {
         font-size: 4.5rem;
-        margin-left: 45rem;
+        margin-left: 55rem;
         margin-top: -20rem;
     }
     
@@ -614,5 +614,34 @@ body {
         font-size: 2.5rem;
         width: 20rem;
         margin-left: 55rem;
+    }
+    
+    .Graph6 {
+        transform: scale(1.4);
+        margin-top: 10rem;
+        margin-left: 32rem;
+    }
+    
+    .Number6 {
+        font-size: 4.5rem;
+        margin-left: -51rem;
+        margin-top: -20rem;
+    }
+    
+    .Description6 {
+        font-size: 2.5rem;
+        width: 20rem;
+        margin-left: 2rem;
+    }
+    
+    .Bar {
+        margin-top: 20rem;
+        width: 75rem;
+        height: 3rem;
+    }
+    
+    .Bar a {
+        font-size: 2.5rem;
+        margin-left: 6rem;
     }
 }
