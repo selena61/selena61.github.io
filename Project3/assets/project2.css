@@ -231,8 +231,311 @@ body {
 
 .Box {
     width: 22.5rem;
-    height: 2.5rem;
+    height: 1.5rem;
     background-color: #959a9d;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem
+}
+
+.Box a {
+    text-decoration: none;
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    padding: 0 1.875rem;
+    margin-left: -.75rem;
+}
+
+.Box a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 48rem;
+    }
+    
+    .menu {
+        font-size: 3rem;
+    }
+    
+    .sidenav a {
+        font-size: 3rem;
+    }
+    
+    .Header {
+        font-size: 2.75rem;
+        margin-top: -3.5rem;
+    }
+    
+    .HeaderBar {
+        height: 4.5rem;
+        width: 48rem;
+        margin-top: -4rem;
+    }
+    
+    .Project2 {
+        transform: scale(.5);
+        margin-top: -10rem;
+    }
+    
+    .TheProject {
+        margin-top: -10rem;
+        font-size: 2rem;
+    }
+    
+    .ProjectDescription {
+        margin-top: 1rem;
+        font-size: 1.5rem;
+        width: 40rem;
+        margin-left: 4rem;
+    }
+    
+    .Process {
+        font-size: 2rem;
+    }
+    
+    .Photo1 {
+        transform: scale(.7);
+        margin-top: -5rem;
+        margin-left: .5rem;
+    }
+    
+    .Number1 {
+        font-size: 3.5rem;
+        margin-top: -5rem;
+    }
+    
+    .Description1 {
+        font-size: 2rem;
+    }
+    
+    .Photo2 {
+        transform: scale(.7);
+        margin-top: -5rem;
+        margin-left: 1rem;
+    }
+    
+    .Number2 {
+        font-size: 3.5rem;
+        margin-top: -5rem;
+        margin-left: .5rem;
+    }
+    
+    .Description2 {
+        font-size: 2rem;
+    }
+    
+    .Photo3 {
+        transform: scale(.7);
+        margin-top: -5rem;
+        margin-left: 1rem;
+    }
+    
+    .Number3 {
+        font-size: 3.5rem;
+        margin-top: -7rem;
+        margin-left: .5rem;
+    }
+    
+    .Description3 {
+        font-size: 2rem;
+    }
+    
+    .Photo4 {
+        transform: scale(.7);
+        margin-top: -5rem;
+        margin-left: 1rem;
+    }
+    
+    .Number4 {
+        font-size: 3.5rem;
+        margin-top: -7rem;
+        margin-left: .5rem;
+    }
+    
+    .Description4 {
+        font-size: 2rem;
+    }
+    
+    .Photo5 {
+        transform: scale(.7);
+        margin-top: -5rem;
+        margin-left: 1rem;
+    }
+    
+    .Number5 {
+        font-size: 3.5rem;
+        margin-top: -7rem;
+        margin-left: .5rem;
+    }
+    
+    .Description5 {
+        font-size: 2rem;
+    }
+    
+    .Box {
+        width: 48rem;
+        height: 2.5rem;
+    }
+    
+    .Box a {
+        font-size: 2rem;
+        margin-left: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        width: 75rem;
+    }
+    
+    .menu {
+        font-size: 4rem;
+    }
+    
+    .sidenav a {
+        font-size: 4rem;
+    }
+    
+    .sidenav closebtn {
+        font-size: 4rem;
+    }
+    
+    .Header {
+        font-size: 3.7rem;
+        margin-top: -5rem;
+    }
+    
+    .HeaderBar {
+        margin-top: -4.8rem;
+        height: 5.2rem;
+        width: 75rem;
+    }
+    
+    .Project2 {
+        transform: scale(.8);
+        margin-left: -2rem;
+        margin-top: -2rem;
+        margin-top: 3rem;
+    }
+    
+    .TheProject {
+        font-size: 3rem;
+        margin-top: -53rem;
+    }
+    
+    .ProjectDescription {
+        font-size: 2.25rem;
+        width: 70rem;
+        margin-left: 2rem;
+        margin-top: 45rem;
+    }
+    
+    .Process {
+        font-size: 3rem;
+    }
+    
+    .Photo1 {
+        transform: scale(.85);
+        margin-top: -1rem;
+        margin-left: -1rem;
+    }
+    
+    .Number1 {
+        font-size: 4.5rem;
+        margin-left: 43rem;
+        margin-top: -30rem;
+    }
+    
+    .Description1 {
+        margin-left: 49rem;
+        width: 20rem;
+        font-size: 2.5rem;
+    }
+    
+    .Photo2 {
+        transform: scale(.85);
+        margin-top: 14rem;
+        margin-left: 30rem;
+    }
+    
+    .Number2 {
+        font-size: 4.5rem;
+        margin-left: -43rem;
+        margin-top: -30rem;
+    }
+    
+    .Description2 {
+        margin-left: 6rem;
+        font-size: 2.5rem;
+        width: 20rem;
+    }
+    
+    .Photo3 {
+        transform: scale(.85);
+        margin-top: 20rem;
+        margin-left: -1rem;
+    }
+    
+    .Number3 {
+        font-size: 4.5rem;
+        margin-left: 43rem;
+        margin-top: -30rem;
+    }
+    
+    .Description3 {
+        margin-left: 49rem;
+        width: 20rem;
+        font-size: 2.5rem;
+    }
+    
+    .Photo4 {
+        transform: scale(.85);
+        margin-top: 14rem;
+        margin-left: 30rem;
+    }
+    
+    .Number4 {
+        font-size: 4.5rem;
+        margin-left: -43rem;
+        margin-top: -30rem;
+    }
+    
+    .Description4 {
+        margin-left: 6rem;
+        font-size: 2.5rem;
+        width: 20rem;
+    }
+    
+    .Photo5 {
+        transform: scale(.85);
+        margin-top: 20rem;
+        margin-left: -1rem;
+    }
+    
+    .Number5 {
+        font-size: 4.5rem;
+        margin-left: 43rem;
+        margin-top: -30rem;
+    }
+    
+    .Description5 {
+        margin-left: 49rem;
+        width: 20rem;
+        font-size: 2.5rem;
+    }
+    
+    .Box {
+        margin-top: 20rem;
+        width: 75rem;
+        height: 3rem;
+    }
+    
+    .Box a {
+        font-size: 2.5rem;
+        margin-left: 6rem;
+    }
 }

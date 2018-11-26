@@ -270,9 +270,349 @@ body {
     font-size: 1.5rem; 
 }
 
+
 .Bar {
     width: 22.5rem;
-    height: 2.5rem;
+    height: 1.5rem;
     background-color: #959a9d;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem
+}
+
+.Bar a {
+    text-decoration: none;
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    padding: 0 1.875rem;
+    margin-left: -.5rem;
+}
+
+.Bar a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 48rem;
+    }
+    
+    .menu {
+        font-size: 3rem;
+    }
+    
+    .sidenav a {
+        font-size: 3rem;
+    }
+    
+     .Header {
+        font-size: 2.75rem;
+        margin-top: -3.5rem;
+    }
+    
+    .HeaderBar {
+        height: 7.5rem;
+        width: 48rem;
+        margin-top: -7.2rem;
+    }
+    
+    .Project3_1 {
+        transform: scale(.5);
+        margin-left: -11rem;
+        margin-top: -7rem;
+    }
+    
+    .Project3_2 {
+        transform: scale(.5);
+        margin-left: 22rem;
+        margin-top: -36rem;
+    }
+    
+    .Project3_3 {
+        transform: scale(.5);
+        margin-left: -11rem;
+        margin-top: -14rem;
+    }
+    
+    .Project3_4 {
+        transform: scale(.5);
+        margin-left: 22rem;
+        margin-top: -36rem;
+    }
+    
+    .TheProject {
+        font-size: 2.5rem;
+        margin-top: -7rem;
+    }
+    
+    .Description {
+        font-size: 1.5rem;
+        width: 40rem;
+        margin-left: 4rem;
+    }
+
+    .Process {
+        font-size: 2.5rem;
+    }
+    
+    .Graph1 {
+        transform: scale(1.1);
+        margin-top: 3rem;
+        margin-left: 15rem;
+    }
+    
+    .Number1 {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+    }
+    
+    .Description1 {
+        font-size: 2rem;
+    }
+    
+    .Graph2 {
+        transform: scale(1.1);
+        margin-top: 3rem;
+        margin-left: 15rem;
+    }
+    
+    .Number2 {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+    }
+    
+    .Description2 {
+        font-size: 2rem;
+    }
+    
+    .Graph3 {
+        transform: scale(1.1);
+        margin-top: 3rem;
+        margin-left: 15rem;
+    }
+    
+    .Number3 {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+    }
+    
+    .Description3 {
+        font-size: 2rem;
+    }
+    
+    .Graph4 {
+        transform: scale(1.1);
+        margin-top: 2rem;
+        margin-left: 10rem;
+    }
+    
+    .Number4 {
+        font-size: 3.5rem;
+        margin-top: 3rem;
+    }
+    
+    .Description4 {
+        font-size: 2rem;
+    }
+    
+    .Graph5 {
+        transform: scale(1.1);
+        margin-top: 3rem;
+        margin-left: 8rem;
+    }
+    
+    .Number5 {
+        font-size: 3.5rem;
+        margin-top: 1rem;
+    }
+    
+    .Description5 {
+        font-size: 2rem;
+    }
+    
+    .Graph6 {
+        transform: scale(1.1);
+        margin-top: 3rem;
+        margin-left: 6rem;
+    }
+    
+    .Number6 {
+        font-size: 3.5rem;
+        margin-top: 1rem;
+    }
+    
+    .Description6 {
+        font-size: 2rem;
+    }
+    
+    .Bar {
+        width: 48rem;
+        height: 2.5rem;
+    }
+    
+    .Bar a {
+        font-size: 2rem;
+        margin-left: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        width: 75rem;
+    }
+    
+    .menu {
+        font-size: 4rem;
+    }
+    
+    .sidenav a {
+        font-size: 4rem;
+    }
+    
+    .sidenav .closebtn {
+        font-size: 4rem;
+    }
+    
+    .Header {
+        font-size: 3.7rem;
+        margin-top: -5rem;
+    }
+    
+    .HeaderBar {
+        width: 75rem;
+        height: 10rem;
+        margin-top: -9.25rem;
+    }
+    
+    .Project3_1 {
+        transform: scale(.9);
+        margin-left: 3rem;
+        margin-top: 4rem;
+    }
+    
+    .Project3_2 {
+        transform: scale(.9);
+        margin-left: 40rem;
+        margin-top: -36rem;
+    }
+    
+    .Project3_3 {
+        transform: scale(.9);
+        margin-left: 3rem;
+        margin-top: -2rem;
+    }
+    
+    .Project3_4 {
+        transform: scale(.9);
+        margin-left: 40rem;
+        margin-top: -36rem;
+    }
+    
+    .TheProject {
+        font-size: 3rem;
+        margin-top: -115rem;
+    }
+    
+    .Description {
+        font-size: 2.25rem;
+        width: 70rem;
+        margin-left: 2rem;
+        margin-top: 110rem;
+    }
+    
+    .Process {
+        font-size: 3rem;
+    }
+    
+    .Graph1 {
+        transform: scale(1.5);
+        margin-top: 5rem;
+        margin-left: 18rem;
+    }
+    
+    .Number1 {
+        font-size: 4.5rem;
+        margin-left: 35rem;
+        margin-top: -15rem;
+    }
+    
+    .Description1 {
+        font-size: 2.5rem;
+        width: 20rem;
+        margin-left: 45rem;
+    }
+    
+    .Graph2 {
+        transform: scale(1.5);
+        margin-top: 20rem;
+        margin-left: 45rem;
+    }
+    
+    .Number2{
+        font-size: 4.5rem;
+        margin-left: -35rem;
+        margin-top: -35rem;
+    }
+    
+    .Description2 {
+        font-size: 2.5rem;
+        width: 20rem;
+        margin-left: 10rem;
+    }
+    
+    .Graph3 {
+        transform: scale(1.5);
+        margin-top: 40rem;
+        margin-left: 18rem;
+    }
+    
+    .Number3 {
+        font-size: 4.5rem;
+        margin-left: 35rem;
+        margin-top: -15rem;
+    }
+    
+    .Description3 {
+        font-size: 2.5rem;
+        width: 20rem;
+        margin-left: 45rem;
+    }
+    
+    .Graph4 {
+        transform: scale(1.5);
+        margin-top: 20rem;
+        margin-left: 33rem;
+    }
+    
+    .Number4 {
+        font-size: 4.5rem;
+        margin-left: -53rem;
+        margin-top: -25rem;
+    }
+    
+    .Description4 {
+        font-size: 2.5rem;
+        width: 20rem;
+        margin-left: 1rem;
+    }
+    
+    .Graph5 {
+        transform: scale(1.4);
+        margin-top: 20rem;
+        margin-left: 14rem;
+    }
+    
+    .Number5 {
+        font-size: 4.5rem;
+        margin-left: 45rem;
+        margin-top: -20rem;
+    }
+    
+    .Description5 {
+        font-size: 2.5rem;
+        width: 20rem;
+        margin-left: 55rem;
+    }
 }
