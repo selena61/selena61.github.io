@@ -16,13 +16,18 @@ body {
     margin-left: .625rem;
 }
 
+.menu:hover {
+    background-color: #fff;
+    color: #818181;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
-    left: 0;
+    left: 0rem;
     background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
@@ -71,28 +76,28 @@ body {
 
 .Image {
     transform: scale(.05);
-    margin-left: -300px;
-    margin-top: -1825px;
+    margin-left: -18.75rem;
+    margin-top: -114.0625rem;
 }
 
 .AboutSection {
     font-family: mrs-eaves,serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 15px;
-    margin-top: -2030px;
-    width: 200px;
-    margin-left: 150px;
+    font-size: .9375rem;
+    margin-top: -125.875rem;
+    width: 12.5rempx;
+    margin-left: 9.375rem;
 }
 
 .Info {
     font-family: mrs-eaves,serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 13.3px;
-    margin-left: 15px;
-    margin-top: 15px;
-    width: 330px;
+    font-size: .83125rem;
+    margin-left: .9375rem;
+    margin-top: .9375rem;
+    width: 20.625rem;
 }
 
 .SkillsHeader {
@@ -105,15 +110,15 @@ body {
 }
 
 .Skills {
-    width: 300px;
-    height: 100px;
+    width: 18.75rem;
+    height: 6.25rem;
     border: .1875rem solid #959a9d;
-    margin-left: 25px;
-    padding: 5px;
+    margin-left: 1.5625rem;
+    padding: .3125rem;
     font-family: mrs-eaves,serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .CourseworkHeader {
@@ -121,21 +126,21 @@ body {
     font-weight: 600;
     font-style: normal;
     font-size: 1.25rem;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin-left: .9375rem;
+    margin-top: .625rem;
     text-align: center;
 }
 
 .Coursework {
-    width: 300px;
-    height: 65px;
+    width: 18.75rem;
+    height: 4.0625rem;
     border: .1875rem solid #959a9d;
-    margin-left: 25px;
-    padding: 5px;
+    margin-left: 1.5625rem;
+    padding: .3125rem;
     font-family: mrs-eaves,serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .IntershipHeader {
@@ -143,44 +148,44 @@ body {
     font-weight: 600;
     font-style: normal;
     font-size: 1.25rem;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin-left: .9375rem;
+    margin-top: .625rem;
     text-align: center;
 }
 
 .InternshipExperience {
-    width: 300px;
-    height: 190px;
+    width: 18.75rem;
+    height: 11.875rem;
     border:.1875rem solid #959a9d;
-    margin-left: 25px;
-    padding: 5px;
+    margin-left: 1.5625rem;
+    padding: .3125rem;
     font-family: mrs-eaves,serif;
     font-weight: 500;
     font-style: normal;
 }
 
 .TRS h4 {
-    font-size: 17px;
+    font-size: 1.0625rem;
 }
 
 .TRS {
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .IM h4 {
-    font-size: 17px;
+    font-size: 1.0625rem;
 }
 
-.IM h5 {
-    font-size: 15px;
+.IM h {
+    font-size: .9375rem;
 }
 
 .Start h4 {
-    font-size: 17px;
+    font-size: 1.0625rem;
 }
 
-.Start h5 {
-    font-size: 15px;
+.Start h {
+    font-size: .9375rem;
 }
 
 .NonProfitHeader {
@@ -188,82 +193,339 @@ body {
     font-weight: 600;
     font-style: normal;
     font-size: 1.25rem;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin-left: .9375rem;
+    margin-top: .625rem;
     text-align: center;
 }
 
 .NonProfit {
-    width: 300px;
-    height: 235px;
+    width: 18.75rem;
+    height: 14.6875;
     border:.1875rem solid #959a9d;
-    margin-left: 25px;
-    padding: 5px;
+    margin-left: 1.5625rem;
+    padding: .3125;
     font-family: mrs-eaves,serif;
     font-weight: 500;
     font-style: normal;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 .JIFFI h4 {
-    font-size: 18px
+    font-size: 1.125rem
 }
 
 .COO h6 {
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .COO {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .VP h6 {
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .VP {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .Intern h6 {
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .Intern {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .Associate h6 {
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .Associate {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .Moneythink h4{
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .Pres h6 {
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .Pres {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .Director h6 {
-    font-size: 15px;
+    font-size: .9375rem;
 }
 
 .Director {
-    font-size: 14px;
+    font-size: .875rem;
 }
 
-.Back {
-    height: 25px;
+.Bottom {
+    height: 30px;
     width: 22.5rem;
     background-color: #959a9d;
     margin-bottom: 15px;
+    font-family: mrs-eaves,serif;
+    font-weight: 500;
+    font-style: normal;    
+    font-size: 1.5rem;
+}
+
+.Bottom a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.Bottom a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 48rem;
+    }
+    
+    .About {
+        width: 48rem;
+    }
+    
+    .About h1 {
+        font-size: 2.5rem;
+    }
+    
+    .Image {
+        margin-left: -41rem;
+    }
+    
+    .AboutSection {
+        font-size: 1.2rem;
+        width: 37rem;
+        margin-left: 10rem;
+        margin-top: -126.5rem;
+    }
+    
+    .Info {
+        font-size: 1rem;
+        margin-left: 10rem;
+        width: 40rem;
+    }
+    
+    .SkillsHeader {
+        font-size: 1.25rem;
+        margin-left: -25rem;
+        margin-top: 1.25rem;
+    }
+    
+    .CourseworkHeader {
+        margin-left: 25rem;
+        margin-top: -9rem;
+    }
+    
+    .Coursework {
+        margin-left: 27rem;
+    }
+   
+    .IntershipHeader {
+        margin-top: 5rem;
+        margin-left: -25rem;
+    }
+    
+    .NonProfitHeader {
+        margin-left: 25rem;
+        margin-top: -14.5rem;
+    }
+    
+    .NonProfit {
+        margin-left: 27rem;
+    }
+    
+    .Bottom {
+        margin-top: 3rem;
+        width: 48rem;
+    }
+    
+    .Bottom a {
+        margin-left: 6rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        width: 75rem;
+    }
+    
+    .About {
+        width: 75rem;
+        height: 4.5rem;
+    }
+    
+    .About h1 {
+        font-size: 4rem;
+    }
+    
+    .Image {
+        margin-left: -56rem;
+        margin-top: -110rem;
+        transform: scale(.07);
+    }
+    
+    .AboutSection {
+        width: 55rem;
+        font-size: 1.7rem;
+        margin-left: 17rem;
+        margin-top: -128rem;
+    }
+    
+    .Info {
+        font-size: 1.4rem;
+        margin-left: 17rem;
+    }
+    
+    .SkillsHeader {
+        font-size: 2.5rem;
+        margin-left: -33rem;
+        margin-top: 3rem;
+    }
+    
+    .Skills {
+        width: 30rem;
+        height: 11.25rem;
+        font-size: 1.75rem;
+        margin-left: 5rem;
+    }
+    
+    .CourseworkHeader {
+        font-size: 2.5rem;
+        margin-left: 33rem;
+        margin-top: -15rem;
+    }
+    
+    .Coursework {
+        width: 30rem;
+        height: 10rem;
+        font-size: 1.75rem;
+        margin-left: 40rem;
+    }
+    
+    .IntershipHeader {
+        font-size: 2.5rem;
+        margin-left: -35rem;
+    }
+    
+    .InternshipExperience {
+        width: 30rem;
+        height: 16.5rem;
+        margin-left: 5rem;
+    }
+    
+    .TRS h4 {
+        font-size: 1.75rem;
+    }
+    
+    .TRS {
+        font-size: 1.35rem;
+    }
+    
+    .IM h4 {
+        font-size: 1.75rem;
+    }
+    
+    .IM {
+        font-size: 1.35rem;
+    }
+    
+    .Start h4 {
+        font-size: 1.75rem;
+    }
+    
+    .Start {
+        font-size: 1.3rem;
+    }
+    
+    .NonProfitHeader {
+        font-size: 2.5rem;
+        margin-top: -20.5rem;
+        margin-left: 35rem;
+    }
+    
+    .NonProfit {
+        width: 30rem;
+        height: 21rem;
+        margin-left: 40rem;
+    }
+    
+    .JIFFI h4 {
+        font-size: 1.75rem;
+    }
+    
+    .COO h6 {
+        font-size: 1.4rem;
+    }
+    
+    .COO {
+        font-size: 1.15rem;
+    }
+    
+    .VP h6 {
+        font-size: 1.4rem;
+    }
+    
+    .VP {
+        font-size: 1.15rem;
+    }
+    
+    .Intern h6 {
+        font-size: 1.4rem;
+    }
+    
+    .Intern {
+        font-size: 1.15rem;
+    }
+    
+    .Associate h6 {
+        font-size: 1.4rem;
+    }
+    
+    .Associate {
+        font-size: 1.15rem;
+    }
+    
+    .Moneythink h4 {
+        font-size: 1.75rem;
+    }
+    
+    .Pres h6 {
+        font-size: 1.3rem;
+    }
+    
+    .Pres {
+        font-size: 1.15rem;
+    }
+    
+    .Director h6 {
+        font-size: 1.3rem;
+    }
+    
+    .Director {
+        font-size: 1.15rem;
+    }
+    
+    .Bottom {
+        width: 75rem;
+        height: 2.5rem;
+        font-size: 2rem;
+    }
+    
+    .Bottom a {
+        margin-left: 13rem;
+    }
 }

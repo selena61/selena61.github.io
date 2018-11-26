@@ -58,52 +58,55 @@ body {
     font-style: normal;
 }
 
-@media screen and (min-width: 568px) {
-    body {
-        width: 35.5rem;
-    }
-    
-    .Logo {
-        transform: scale(.3);
-        margin-top: -15.5rem;
-        margin-left: 2.5rem;
-    }
-    
-    .topnav a {
-        padding: 2rem 7.1rem;
-    }
-    
-    .Quote h2{
-        margin: -15.5rem 2rem 0 2rem;
-        font-size: 1.75rem;
-    }
-    
-    .Quote h4 {
-        font-size: 1.25rem;
-    }
-}
-    
 @media screen and (min-width: 768px) {
     body {
         width: 48rem;
     }
     
     .Logo {
-        transform: scale(.4);
-        margin-top: -13rem;
+        transform: scale(.35);
+        margin-top: -13.5rem;
+        margin-left: 2.5rem;
+        margin-bottom: 2rem;
     }
     
     .topnav a {
-        font-size: 1.75rem;
-        padding: 2rem 9.95rem;
+        padding: 2rem 9.5rem;
+        font-size: 2rem;
     }
     
-    .Quote h2 {
+    .Quote h2{
+        margin: -15.5rem 2rem 0 2rem;
         font-size: 2.25rem;
-        margin: -13rem 2rem 0 2rem;
     }
     
     .Quote h4 {
         font-size: 1.5rem;
+    }
+}
+    
+@media screen and (min-width: 1200px) {
+    body {
+        width: 75rem;
+    }
+    
+    .Logo {
+        transform: scale(.4);
+        margin-top: -12rem;
+        margin-left: 13rem;
+    }
+    
+    .topnav a {
+        font-size: 2.25rem;
+        padding: 2rem 16rem;
+    }
+    
+    .Quote h2 {
+        font-size: 2.75rem;
+        margin: -13rem 2rem 0 2rem;
+    }
+    
+    .Quote h4 {
+        font-size: 2rem;
     }
 }

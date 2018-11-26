@@ -16,6 +16,11 @@ body {
     margin-left: .625rem;
 }
 
+.menu:hover {
+    background-color: #fff;
+    color: #818181;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
@@ -169,8 +174,24 @@ body {
 
 .Bottom {
     width: 22.5rem;
-    height: 3.5rem;
+    height: 2rem;
     background-color: #959a9d;
+}
+
+.Bottom a {
+    color: #fff;
+    text-align: center;
+    padding: 0 1.75rem;
+    text-decoration: none;
+    font-family: mrs-eaves, serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.Bottom a:hover {
+    background-color: #000;
+    color: #fff;
 }
 
 @media screen and (min-width: 768px) {
@@ -248,6 +269,10 @@ body {
     .Bottom {
         width: 48rem;
     }
+    
+    .Bottom a {
+        margin-left: 7rem;
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -283,6 +308,7 @@ body {
     .Words {
         font-size: 3.5rem;
         margin-right: .5rem;
+        text-align: right;
         margin-top: -8rem;
     }
     
@@ -296,6 +322,36 @@ body {
         transform: scale(.5);
         margin-top: -31.5rem;
         margin-left: 17rem;
+    }
+    
+    .Story {
+        font-size: 3.5rem;
+        margin-left: .5rem;
+        text-align: left;
+        margin-top: -10rem;
+    }
+    
+    .StoryBox {
+        height: 25rem;
+        width: 42rem;
+    }
+    
+    .StoryImg {
+        transform: scale(.5);
+        margin-top: -27.5rem;
+    }
+    
+    .Logo {
+        transform: scale(.4);
+        margin-top: -20rem;
+    }
+    
+    .Bottom {
+        width: 75rem;
+    }
+    
+    .Bottom a {
+        margin-left: 12rem;
     }
 }
 

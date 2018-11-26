@@ -16,6 +16,11 @@ body {
     margin-left: .625rem;
 }
 
+.menu:hover {
+    background-color: #fff;
+    color: #818181;
+}
+
 .sidenav {
     height: 100%;
     width: 0;
