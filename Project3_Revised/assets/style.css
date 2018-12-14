@@ -319,16 +319,41 @@
 
 @media screen and (min-width: 1000px) {
     
+    .Resume h2 {
+        font-size: 200%;
+    }
+    
+    .Resume h4{
+        font-size: 115%;
+    }
+    
+    .Resume h5 {
+        font-size: 105%;
+    }
+    
+    .Resume h7 {
+        font-size: 100%;
+    }
+    
+    .Resume p {
+        font-size: 115%;
+    }
+    
     .Self {
         padding: 5% 3% 2% 3%;
     }
+    
+    .Self p {
+        font-size: 150%;
+    }
+    
     .AboutSection .Info {
         padding: 2% 0 0 0;
         flex: 70%;
     }
     
-    .Info p{
-        font-size: 112%;
+    .AboutSection p{
+        font-size: 130%;
         padding: 1.5%
     }
     
@@ -341,8 +366,3 @@
         padding: .5%
     }
 }
-/* ------------------------------ */
-/* Work Page */
-/* ------------------------------ */
-
-    
